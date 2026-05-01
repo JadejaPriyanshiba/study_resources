@@ -1,0 +1,927 @@
+[
+    {
+        "subject": "computer practices",
+        "units": [
+            {
+                "name": "basics",
+                "questions": [
+                    {
+                        "question": "In MS Excel, you have a value in cell A1. You write the formula '=A1 * 10' in cell B1. If you drag the fill handle from B1 down to B2, what will be the formula in cell B2?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "=A1 * 10",
+                            "b": "=$A$1 * 10",
+                            "c": "=A2 * 10",
+                            "d": "The cell will show an error"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "A student wants to create a hyperlink in an HTML document that says 'Click Here' and links to 'https://example.com', opening it in a new browser tab. Which of the following HTML codes is correct?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "<a src='https://example.com' target='_blank'>Click Here</a>",
+                            "b": "<a href='https://example.com' target='_new'>Click Here</a>",
+                            "c": "<link href='https://example.com' target='_blank'>Click Here</link>",
+                            "d": "<a href='https://example.com' target='_blank'>Click Here</a>"
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "Which of the following computer components is considered volatile memory, meaning its contents are lost when the computer is powered off?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Read-Only Memory (ROM)",
+                            "b": "Solid State Drive (SSD)",
+                            "c": "Random Access Memory (RAM)",
+                            "d": "Hard Disk Drive (HDD)"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "To apply a consistent design, such as a company logo and specific font styles, to every single slide in a Microsoft PowerPoint presentation automatically, which feature is the most appropriate to use?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Using the 'Format Painter' tool on each slide",
+                            "b": "Editing the 'Slide Master' in the View tab",
+                            "c": "Inserting a header and footer on each slide individually",
+                            "d": "Applying a 'Design Template' from the Design tab"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "In MS Word, the 'Mail Merge' feature is used to create mass mailings. It typically combines two files. What are these two files?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "A presentation file and a video file",
+                            "b": "A main document template and a data source file",
+                            "c": "A header file and a footer file",
+                            "d": "A Word document and a PDF document"
+                        },
+                        "answer": "b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subject": "physics",
+        "units": [
+            {
+                "name": "units and measurements",
+                "questions": [
+                    {
+                        "question": "The value of the coefficient of viscosity '\u03b7' for a liquid is 1.2 N s/m\u00b2. What is its value in the CGS system of units (in poise)? (Note: 1 poise = 1 dyne s/cm\u00b2)",
+                        "type": "mcq",
+                        "options": {
+                            "a": "12 poise",
+                            "b": "1.2 poise",
+                            "c": "120 poise",
+                            "d": "0.12 poise"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "A physical quantity P is related to four observables a, b, c, and d as P = a\u00b3b\u00b2 / (\u221ac d). The percentage errors of measurement in a, b, c, and d are 1%, 3%, 4%, and 2% respectively. What is the percentage error in the quantity P?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "13%",
+                            "b": "12%",
+                            "c": "14%",
+                            "d": "10%"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "While measuring the diameter of a sphere using a Vernier caliper, the main scale reading is 4.6 cm and the 8th division of the Vernier scale coincides with a main scale division. If the least count of the caliper is 0.01 cm and it has a positive zero error of +0.04 cm, the correct diameter of the sphere is:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "4.64 cm",
+                            "b": "4.72 cm",
+                            "c": "4.68 cm",
+                            "d": "4.76 cm"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "A micrometer screw gauge is used to measure the thickness of a wire. The main scale reading is 3 mm and the 45th division of the circular scale coincides with the reference line. The instrument has a negative zero error of -0.03 mm. If the least count is 0.01 mm, what is the correct thickness of the wire?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "3.42 mm",
+                            "b": "3.48 mm",
+                            "c": "3.45 mm",
+                            "d": "3.40 mm"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "The refractive index of water was measured in an experiment and the readings were found to be 1.29, 1.33, 1.34, 1.35, 1.32, 1.36, 1.30, and 1.33. What is the mean absolute error in the measurement?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "0.01",
+                            "b": "0.02",
+                            "c": "1.33",
+                            "d": "0.03"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "The universal gravitational constant G has a value of 6.67 \u00d7 10\u207b\u00b9\u00b9 N m\u00b2/kg\u00b2 in the SI system. What is its numerical value in the CGS system, where the unit is dyne cm\u00b2/g\u00b2?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "6.67 \u00d7 10\u207b\u2078",
+                            "b": "6.67 \u00d7 10\u207b\u2075",
+                            "c": "6.67 \u00d7 10\u207b\u2079",
+                            "d": "6.67 \u00d7 10\u207b\u00b9\u00b3"
+                        },
+                        "answer": "a"
+                    }
+                ]
+            },
+            {
+                "name": "classical mechanics",
+                "questions": [
+                    {
+                        "question": "A cricket ball of mass 150 g is moving with a velocity of 12 m/s and is hit by a bat, which causes the ball to turn back with a velocity of 20 m/s. If the duration of contact between the ball and bat is 0.01 s, what is the magnitude of the average force exerted on the ball by the bat?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "120 N",
+                            "b": "240 N",
+                            "c": "480 N",
+                            "d": "320 N"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "A body of mass 5 kg is dropped from a height of 20 m above the ground. What is its kinetic energy when it is halfway down? (Assume g = 10 m/s\u00b2 and neglect air resistance).",
+                        "type": "mcq",
+                        "options": {
+                            "a": "1000 J",
+                            "b": "750 J",
+                            "c": "250 J",
+                            "d": "500 J"
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "A stone of mass 0.5 kg is tied to a string of length 1 m and is whirled in a horizontal circle at a constant rate of 60 revolutions per minute (rpm). Calculate the tension in the string. (Assume \u03c0\u00b2 \u2248 10)",
+                        "type": "mcq",
+                        "options": {
+                            "a": "10 N",
+                            "b": "20 N",
+                            "c": "30 N",
+                            "d": "40 N"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "A horse pulls a cart, causing it to accelerate. According to Newton's third law, the cart pulls back on the horse with an equal and opposite force. Why does the horse-cart system still move forward?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The force exerted by the horse on the cart is slightly greater than the force exerted by the cart on the horse.",
+                            "b": "The action-reaction pair acts on the same body, so they do not cancel out.",
+                            "c": "The force of friction between the cart's wheels and the ground is zero.",
+                            "d": "The system moves because the external force exerted by the ground on the horse's hooves is greater than the total resistive forces."
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "An electric pump is used to lift 500 kg of water from a well 10 m deep to fill an overhead tank in 50 seconds. What is the minimum power of the pump required for this task? (Take g = 9.8 m/s\u00b2)",
+                        "type": "mcq",
+                        "options": {
+                            "a": "490 W",
+                            "b": "1000 W",
+                            "c": "980 W",
+                            "d": "5000 W"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "The physical quantity 'impulse' has the same dimensions as that of:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Force",
+                            "b": "Power",
+                            "c": "Linear Momentum",
+                            "d": "Work"
+                        },
+                        "answer": "c"
+                    }
+                ]
+            },
+            {
+                "name": "electricity",
+                "questions": [
+                    {
+                        "question": "A uniform wire of resistance R and resistivity \u03c1 is stretched to double its original length. What will be its new resistivity?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "4\u03c1",
+                            "b": "2\u03c1",
+                            "c": "\u03c1",
+                            "d": "\u03c1/2"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Two resistors of 6 \u03a9 and 3 \u03a9 are connected in parallel. This combination is then connected in series with a 4 \u03a9 resistor. What is the equivalent resistance of the entire circuit?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "13 \u03a9",
+                            "b": "6 \u03a9",
+                            "c": "7.5 \u03a9",
+                            "d": "10 \u03a9"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Charges are placed at the corners of a square ABCD. Charges +Q are at corners A and B, while charges -Q are at corners C and D. If 'a' is the side length of the square, what is the magnitude of the electric field at the center of the square?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "0",
+                            "b": "(1/4\u03c0\u03b5\u2080) * (2Q / a\u00b2)",
+                            "c": "(1/4\u03c0\u03b5\u2080) * (4\u221a2 Q / a\u00b2)",
+                            "d": "(1/4\u03c0\u03b5\u2080) * (2\u221a2 Q / a\u00b2)"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "A parallel plate air capacitor has capacitance C. A dielectric slab of dielectric constant K and thickness d/2 is inserted exactly in the middle between the plates, where d is the plate separation. The new capacitance will be:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "C * (K+1)/2K",
+                            "b": "C * K/(K+1)",
+                            "c": "C * 2K/(K+1)",
+                            "d": "2C"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "An electric heater is rated 1500 W, 250 V. What is the approximate resistance of its heating element when in use?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "6.0 \u03a9",
+                            "b": "25.5 \u03a9",
+                            "c": "41.7 \u03a9",
+                            "d": "375 k\u03a9"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "For a charged hollow conducting sphere in electrostatic equilibrium, which statement about the electric field (E) and electric potential (V) inside the cavity of the sphere is correct?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "E = 0 and V = 0",
+                            "b": "E \u2260 0 and V is constant",
+                            "c": "E = 0 and V is constant and non-zero",
+                            "d": "E \u2260 0 and V \u2260 0"
+                        },
+                        "answer": "c"
+                    }
+                ]
+            },
+            {
+                "name": "heat and thermometry",
+                "questions": [
+                    {
+                        "question": "At what temperature on the Celsius scale is the corresponding reading on the Fahrenheit scale exactly double the Celsius reading?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "80\u00b0C",
+                            "b": "160\u00b0C",
+                            "c": "320\u00b0C",
+                            "d": "-40\u00b0C"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "A person sitting near a campfire feels warm primarily due to which mode of heat transfer from the flames?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Conduction through the air",
+                            "b": "Convection currents of hot air",
+                            "c": "Thermal radiation",
+                            "d": "Both conduction and convection equally"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "A 500 g block of an unknown metal absorbs 9.5 kJ of heat, causing its temperature to rise from 25\u00b0C to 125\u00b0C. What is the specific heat capacity of the metal?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "190 J/kg\u00b0C",
+                            "b": "380 J/kg\u00b0C",
+                            "c": "950 J/kg\u00b0C",
+                            "d": "1900 J/kg\u00b0C"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "An iron rod of length 2 m and a copper rod of length 1 m are heated through the same temperature change. If the coefficient of linear expansion for iron is 12 x 10\u207b\u2076 /\u00b0C and for copper is 17 x 10\u207b\u2076 /\u00b0C, what is the ratio of the expansion of the iron rod to the copper rod (\u0394L_iron / \u0394L_copper)?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "12 / 17",
+                            "b": "17 / 12",
+                            "c": "24 / 17",
+                            "d": "17 / 24"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "The rate of heat flow through a substance is given by the equation Q/t = kA(\u0394T/\u0394x). What is the correct SI unit for the coefficient of thermal conductivity, k?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "J s\u207b\u00b9 m\u207b\u00b2 K\u207b\u00b9",
+                            "b": "W m K\u207b\u00b9",
+                            "c": "W m\u207b\u00b9 K\u207b\u00b9",
+                            "d": "J m\u207b\u00b9 K"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Which of the following statements most accurately describes the physical significance of the temperature 0 Kelvin?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "It is the temperature at which water freezes.",
+                            "b": "It is the point where the kinetic energy of particles is at its theoretical minimum.",
+                            "c": "It is the triple point of water, where all three phases coexist.",
+                            "d": "It is the temperature at which all substances become superconductors."
+                        },
+                        "answer": "b"
+                    }
+                ]
+            },
+            {
+                "name": "waves and acoustics",
+                "questions": [
+                    {
+                        "question": "An optical fiber consists of a core and cladding. For the principle of Total Internal Reflection to successfully guide light through the fiber, which condition regarding their refractive indices (\u03bc) must be met, and how must the light ray strike the core-cladding interface?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "\u03bc_core < \u03bc_cladding, and the angle of incidence must be less than the critical angle.",
+                            "b": "\u03bc_core > \u03bc_cladding, and the angle of incidence must be greater than the critical angle.",
+                            "c": "\u03bc_core > \u03bc_cladding, and the angle of incidence must be less than the critical angle.",
+                            "d": "\u03bc_core = \u03bc_cladding, and the angle of incidence can be anything."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "The equation of a simple progressive wave is given by y(x, t) = 0.05 sin(2\u03c0t - 0.4\u03c0x), where all units are in the SI system. Calculate the velocity of the wave.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "5 m/s",
+                            "b": "2.5 m/s",
+                            "c": "0.5 m/s",
+                            "d": "10 m/s"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "According to Sabine's formula, the reverberation time in an auditorium is directly proportional to its volume and inversely proportional to the total absorption. If the dimensions (length, breadth, height) of the hall are all doubled, while the total absorption coefficient of the surfaces remains the same, the reverberation time will become:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Twice the original time",
+                            "b": "Four times the original time",
+                            "c": "Half the original time",
+                            "d": "Eight times the original time"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "Ultrasonic waves are sound waves with frequencies above the human audible range (> 20 kHz). Which of the following is an application that specifically relies on the short wavelength and high frequency of ultrasonic waves?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Broadcasting radio signals over long distances.",
+                            "b": "Hearing conversation in a quiet room.",
+                            "c": "Medical imaging of internal organs (sonography).",
+                            "d": "Generating music in an orchestra."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "A sound wave travels from air into water. Which of the following properties of the wave will change, and which will remain constant?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Wavelength changes, frequency remains constant.",
+                            "b": "Frequency changes, wavelength remains constant.",
+                            "c": "Both frequency and wavelength change.",
+                            "d": "Both frequency and wavelength remain constant."
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "Which statement accurately distinguishes between a stationary wave and a progressive wave?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "In a progressive wave, all particles vibrate with the same amplitude, whereas in a stationary wave, the amplitude varies from zero at nodes to maximum at antinodes.",
+                            "b": "Energy is continuously transferred in the direction of propagation in a stationary wave, but not in a progressive wave.",
+                            "c": "The phase of vibration is the same for all particles between two consecutive nodes in a progressive wave.",
+                            "d": "Stationary waves can be either transverse or longitudinal, but progressive waves can only be transverse."
+                        },
+                        "answer": "a"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subject": "chemistry",
+        "units": [
+            {
+                "name": "chemical equations and reactions",
+                "questions": [
+                    {
+                        "question": "When solid iron(III) oxide reacts with solid aluminium to produce solid aluminium oxide and molten iron, the chemical equation is balanced using the smallest possible integer coefficients. What is the sum of the stoichiometric coefficients of the products in this balanced equation?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "2",
+                            "b": "3",
+                            "c": "4",
+                            "d": "5"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "The thermal decomposition of solid lead(II) nitrate produces solid lead(II) oxide, nitrogen dioxide gas, and oxygen gas. The balanced chemical equation for this is 2Pb(NO\u2083)\u2082(s) \u2192 2PbO(s) + 4NO\u2082(g) + O\u2082(g). Which statement BEST describes this reaction?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "It is a displacement reaction where lead displaces nitrogen.",
+                            "b": "It is a decomposition reaction, but not a redox reaction as the oxidation state of lead remains unchanged.",
+                            "c": "It is both a decomposition reaction and a redox reaction.",
+                            "d": "It is a combination reaction as multiple products are formed."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "An aqueous solution of sodium sulphate is mixed with an aqueous solution of barium chloride. A reaction occurs immediately. Which of the following correctly identifies the type of reaction and the specific chemical formula of the insoluble product formed?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Displacement Reaction; Insoluble product is NaCl.",
+                            "b": "Combination Reaction; Insoluble product is BaSO\u2084.",
+                            "c": "Double Displacement Reaction; Insoluble product is BaSO\u2084.",
+                            "d": "Double Displacement Reaction; Insoluble product is NaCl."
+                        },
+                        "answer": "c"
+                    }
+                ]
+            },
+            {
+                "name": "metals and non-metals",
+                "questions": [
+                    {
+                        "question": "A student makes the following statements about the physical properties of metals and non-metals after conducting some experiments. Identify the INCORRECT statement.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Most metals have high melting points, but gallium and caesium have very low melting points, melting even on one's palm.",
+                            "b": "Non-metals are typically non-lustrous; however, crystals of iodine, a non-metal, possess a distinct metallic lustre.",
+                            "c": "All non-metals are either solids or gases at standard room temperature (25\u00b0C).",
+                            "d": "Metals are generally hard, but alkali metals like sodium and potassium are soft enough to be cut with a knife."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "An experiment was set up with four beakers to study displacement reactions. Beaker A contains an iron nail in a zinc sulphate solution. Beaker B contains a strip of zinc in a copper(II) sulphate solution. Beaker C contains a copper wire in a silver nitrate solution. Beaker D contains a magnesium ribbon in an iron(II) sulphate solution. After some time, in which beaker would a student observe NO visible chemical change?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Beaker A",
+                            "b": "Beaker B",
+                            "c": "Beaker C",
+                            "d": "Beaker D"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "The reddish-brown flaky substance formed on an iron gate during the monsoon season is rust, chemically known as hydrated iron(III) oxide (Fe\u2082O\u2083\u00b7xH\u2082O). This substance is formed by the reaction between a metal and non-metals, resulting in an ionic compound. Based on the general properties of ionic compounds, which of the following characteristics would rust most likely exhibit?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "It is a good conductor of electricity in its solid, flaky state.",
+                            "b": "It is highly soluble in organic solvents like kerosene or petrol.",
+                            "c": "It is malleable and can be hammered into a thin foil.",
+                            "d": "It has a high melting point and is brittle in nature."
+                        },
+                        "answer": "d"
+                    }
+                ]
+            },
+            {
+                "name": "acids, bases and salts",
+                "questions": [
+                    {
+                        "question": "A student adds a few drops of dilute hydrochloric acid to a test tube containing a small amount of a black-coloured metallic oxide 'X'. The student observes that the black solid dissolves and the solution turns bluish-green. What is the chemical nature of oxide 'X' and the approximate pH of the resulting solution?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The oxide 'X' is acidic, and the solution pH will be greater than 7.",
+                            "b": "The oxide 'X' is basic, and the solution pH will be less than 7.",
+                            "c": "The oxide 'X' is neutral, and the solution pH will be exactly 7.",
+                            "d": "The oxide 'X' is amphoteric, and the solution pH will be close to 7."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Two beakers, A and B, contain 100 mL of 0.1 M HCl and 100 mL of 0.1 M CH\u2083COOH respectively. Which statement accurately describes the reason for the difference in their acidic strength when dissolved in water?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Water acts as a proton donor for HCl but a proton acceptor for CH\u2083COOH.",
+                            "b": "Both acids are covalent, but HCl is an inorganic acid while CH\u2083COOH is an organic acid.",
+                            "c": "HCl dissociates completely in water to give a high concentration of H\u207a ions, whereas CH\u2083COOH dissociates only partially.",
+                            "d": "The molarity of the solutions is the same, so they will contain an equal concentration of H\u207a ions and have the same acidic strength."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Tooth decay starts when the pH of the mouth is lower than 5.5. Toothpaste containing basic ingredients is recommended to prevent this. Which of the following statements gives the most accurate scientific explanation for this?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Tooth enamel is made of calcium hydroxyapatite which is basic. Acids produced by bacteria react with it. The alkaline toothpaste neutralises the acid.",
+                            "b": "Saliva in our mouth becomes highly acidic after meals. Toothpaste contains fluoride which creates a protective acidic layer on the teeth.",
+                            "c": "Bacteria in the mouth are basic in nature, and toothpaste is acidic to kill them, preventing them from attacking the enamel which is also acidic.",
+                            "d": "The critical pH of 5.5 is for the saliva to become corrosive. Toothpaste works by forming a coating that does not allow saliva to touch the teeth."
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "An aqueous solution of which of the following salts, all belonging to the 'chloride' family, will turn blue litmus paper to red?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Sodium Chloride (NaCl)",
+                            "b": "Potassium Chloride (KCl)",
+                            "c": "Ammonium Chloride (NH\u2084Cl)",
+                            "d": "Calcium Chloride (CaCl\u2082)"
+                        },
+                        "answer": "c"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subject": "Environmental Sciences",
+        "units": [
+            {
+                "name": "basics",
+                "questions": [
+                    {
+                        "question": "In a simple terrestrial food chain, grass captures 10,000 kJ of energy from the sun. A deer eats the grass, and a tiger preys on the deer. According to the 10% law of energy transfer, what is the approximate amount of energy that would be available to the tiger?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "1,000 kJ",
+                            "b": "100 kJ",
+                            "c": "10 kJ",
+                            "d": "1,0000 kJ"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "The phenomenon of 'eutrophication' in lakes and rivers, leading to algal blooms and a decrease in dissolved oxygen, is primarily accelerated by the influx of what type of pollutants from agricultural fields and sewage?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Heavy metals like lead and mercury",
+                            "b": "Nutrients like nitrates and phosphates",
+                            "c": "Thermal pollution from power plants",
+                            "d": "Acidic compounds from acid rain"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Besides carbon dioxide, methane (CH4) is a potent greenhouse gas. Which of the following combinations of activities is a major anthropogenic source of methane emissions, particularly relevant in the Indian context?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Operation of nuclear power plants and cement manufacturing",
+                            "b": "Use of aerosols and refrigerants",
+                            "c": "Burning of fossil fuels in thermal power stations",
+                            "d": "Rice cultivation in flooded fields and livestock farming (ruminant digestion)"
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "While solar energy is abundant, the practical generation of electricity using photovoltaic (PV) cells has a significant limitation related to its availability. Which statement best describes this limitation?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Solar panels can only be installed in desert regions.",
+                            "b": "It is an intermittent energy source, dependent on daytime, weather, and seasons.",
+                            "c": "The manufacturing process of PV cells consumes more energy than they produce in their lifetime.",
+                            "d": "Solar energy generation produces a significant amount of air pollution."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Tidal energy is a form of hydropower that converts the energy obtained from tides. What is the most critical geographical requirement for a location to be considered suitable for a viable tidal power plant?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "A location with a high average annual rainfall.",
+                            "b": "A deep-sea location far from the coastline.",
+                            "c": "A coastal estuary or bay with a large difference between high tide and low tide levels.",
+                            "d": "A river with a very fast and constant flow rate."
+                        },
+                        "answer": "c"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subject": "Soft skills",
+        "units": [
+            {
+                "name": "Comprehension of Unseen Passage",
+                "questions": [
+                    {
+                        "question": "Read the following passage carefully and answer the questions that follow.\n\nThe world of work is undergoing a seismic shift, and India is at the epicentre of this transformation. The traditional concept of a 'job-for-life' is rapidly being replaced by the 'gig economy'. This model is characterized by short-term contracts or freelance work as opposed to permanent jobs. Companies like Swiggy, Zomato, Uber, and Urban Company have become household names, primarily powered by a massive fleet of gig workers. For many young Indians, especially those with vocational diplomas, the gig economy presents a seemingly attractive alternative to the conventional job market, offering flexibility and immediate income.\n\nThe primary allure of the gig economy is its flexibility. Workers can often choose their own hours and location, a stark contrast to the rigid 9-to-5 structure of traditional employment. This autonomy is particularly appealing to students, homemakers, and those looking to supplement their primary income. Furthermore, the entry barrier is often low. A person with a driving license can become a cab driver, or someone with basic repair skills can register as a technician on an app-based platform. This accessibility has created earning opportunities for millions who might have been excluded from the formal sector.\n\nHowever, the gig economy is not without its significant drawbacks. A major criticism is the lack of a social safety net. Gig workers are typically classified as independent contractors, not employees, which means they are often denied benefits like provident fund, health insurance, paid leave, and job security. Their income can be highly unpredictable, fluctuating with demand and platform algorithm changes. This instability can lead to financial stress and makes long-term planning, such as securing a loan, extremely difficult. Moreover, the constant pressure to find the next 'gig' and maintain high ratings can take a toll on mental and physical well-being.\n\nThe future of the gig economy in India is a topic of intense debate. The government has introduced new labour codes that attempt to provide some social security to gig workers, but their implementation remains a complex challenge. For the model to be sustainable and equitable, a balance must be struck. Companies need to take greater responsibility for their workers' welfare, while workers may need to upskill continuously to remain competitive. For diploma students entering this landscape, it is crucial to understand both the glittering opportunities and the hidden pitfalls.\n\nWhat is the main purpose of this passage?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "To persuade diploma students to only work in the gig economy.",
+                            "b": "To criticize the government for not regulating the gig economy properly.",
+                            "c": "To provide a balanced overview of the gig economy, highlighting both its advantages and disadvantages.",
+                            "d": "To list the names of all companies that are part of the gig economy in India."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "According to the passage, why are gig workers often denied benefits like health insurance and paid leave?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Because they prefer to receive all their earnings in cash immediately.",
+                            "b": "Because they are legally classified as independent contractors instead of employees.",
+                            "c": "Because they do not work for a sufficient number of hours each week.",
+                            "d": "Because the companies they work for are new and cannot afford to provide benefits."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "In the first paragraph, what is the meaning of the phrase 'seismic shift'?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "A minor, insignificant change.",
+                            "b": "A change related to earthquakes.",
+                            "c": "A gradual change over a long period.",
+                            "d": "A very large and powerful transformation."
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "What can be inferred from the last paragraph of the passage?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The gig economy is a perfect career path with no risks for diploma students.",
+                            "b": "Students considering the gig economy should be aware of its challenges and prepare for them.",
+                            "c": "The government has successfully solved all the problems faced by gig workers.",
+                            "d": "Traditional jobs will completely disappear in the near future."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Which of the following is NOT mentioned in the passage as a drawback of the gig economy?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Income that can change unexpectedly.",
+                            "b": "Lack of a social safety net like provident fund.",
+                            "c": "Difficulty in getting promotions to managerial roles.",
+                            "d": "Stress on mental and physical health."
+                        },
+                        "answer": "c"
+                    }
+                ]
+            },
+            {
+                "name": "Theory of Communication",
+                "questions": [
+                    {
+                        "question": "A project manager is explaining a complex task to a team member over a poor video call connection, causing the video to freeze and audio to lag. The team member misunderstands a critical deadline. In the communication process model, this poor internet connection is an example of:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Semantic Barrier",
+                            "b": "Psychological Noise",
+                            "c": "Channel Noise",
+                            "d": "Decoding Error"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "An employee tells their manager, 'Yes, I completely understand the new policy,' but does so while avoiding eye contact, tapping their foot impatiently, and slightly frowning. What does this situation primarily illustrate about communication?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The importance of using formal language in a professional setting.",
+                            "b": "A conflict between verbal and non-verbal messages, where non-verbal cues often reveal true feelings.",
+                            "c": "An example of an effective and positive feedback loop.",
+                            "d": "The superiority of written communication over oral communication for policies."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "A senior doctor explains a patient's diagnosis using complex medical terminology and jargon like 'myocardial infarction' instead of 'heart attack'. The patient, having no medical background, nods along but does not truly understand their condition. This failure in communication is primarily caused by a:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Psychological Barrier",
+                            "b": "Physical Barrier",
+                            "c": "Semantic Barrier",
+                            "d": "Organizational Barrier"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "In the communication process, what is the crucial step where the sender converts their thoughts, ideas, or feelings into a message (such as words, symbols, or gestures) that can be sent to the receiver?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Decoding",
+                            "b": "Encoding",
+                            "c": "Feedback",
+                            "d": "Channeling"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "A manager conducting a performance review sits uncomfortably close to an employee within their personal space, making the employee feel intimidated and defensive. This discomfort, which acts as a barrier, arises from a misuse of which specific element of non-verbal communication?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Kinesics",
+                            "b": "Haptics",
+                            "c": "Chronemics",
+                            "d": "Proxemics"
+                        },
+                        "answer": "d"
+                    }
+                ]
+            },
+            {
+                "name": "Techniques of Writing",
+                "questions": [
+                    {
+                        "question": "In a formal business letter, if you do not know the name of the recipient and begin with the salutation 'Dear Sir/Madam,', what is the most appropriate complimentary close according to standard business etiquette?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Yours sincerely,",
+                            "b": "Yours faithfully,",
+                            "c": "With best regards,",
+                            "d": "Yours truly,"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "A company, 'Creative Designs Pvt. Ltd.', sends a letter to a supplier requesting a catalogue and price list for new printing machinery. This letter does not commit them to a purchase but simply seeks information. What specific type of business letter is this?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Order Letter",
+                            "b": "Adjustment Letter",
+                            "c": "Inquiry Letter",
+                            "d": "Complaint Letter"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "A customer received a shipment of 50 glass vases, but 10 were found to be broken upon arrival. The customer writes a letter to the supplier detailing the issue and requesting a replacement. The supplier then writes back, apologizing for the damage and confirming that 10 new vases are being dispatched at no extra cost. What is the letter sent by the SUPPLIER called?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "A Letter of Complaint",
+                            "b": "A Letter of Reply",
+                            "c": "A Letter of Order",
+                            "d": "A Letter of Adjustment"
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "In the context of a business letter or email, what does the abbreviation 'p.p.' (per pro.) placed before a signature signify?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Post Paid, indicating that postage has been fully paid by the sender.",
+                            "b": "For your perusal, indicating the document is for the recipient to review.",
+                            "c": "On behalf of, indicating that a person is signing for another person who is absent or unavailable.",
+                            "d": "Please Post, a note to the mailroom staff to dispatch the letter immediately."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Which of the following components is essential in a formal business email but is NOT typically a distinct part of a traditional printed business letter's header or introductory section?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Sender's Address",
+                            "b": "Date",
+                            "c": "Subject Line",
+                            "d": "Recipient's Address"
+                        },
+                        "answer": "c"
+                    }
+                ]
+            },
+            {
+                "name": "Grammar",
+                "questions": [
+                    {
+                        "question": "Read the following sentence: 'One of the senior engineers, along with the new trainees, __________ responsible for the daily machine checks.' Choose the correct verb form that agrees with the subject.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "are",
+                            "b": "is",
+                            "c": "were",
+                            "d": "have been"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "In the sentence, 'The fast train runs fast,' what are the parts of speech for the first and second instance of the word 'fast' respectively?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Adverb, Adjective",
+                            "b": "Adjective, Adverb",
+                            "c": "Adjective, Adjective",
+                            "d": "Adverb, Adverb"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Which sentence correctly uses the past perfect tense to show an action that was completed before another past action?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "When I reached the station, the train left.",
+                            "b": "When I reached the station, the train has left.",
+                            "c": "When I reached the station, the train was leaving.",
+                            "d": "When I reached the station, the train had already left."
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "Identify the correct parts of speech for the underlined words in the sentence: 'Wow! He worked hard _________ he could pass the difficult certification exam.'",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Interjection, Connector, Noun",
+                            "b": "Verb, Preposition, Adjective",
+                            "c": "Interjection, Adverb, Pronoun",
+                            "d": "Noun, Connector, Adjective"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "Choose the most appropriate word to complete the sentence: 'The manager was not impressed _________ his excuses; the report was still late.'",
+                        "type": "mcq",
+                        "options": {
+                            "a": "by",
+                            "b": "for",
+                            "c": "although",
+                            "d": "from"
+                        },
+                        "answer": "a"
+                    }
+                ]
+            },
+            {
+                "name": "Correction of Incorrect Words and Sentences",
+                "questions": [
+                    {
+                        "question": "Choose the correctly spelled word from the options below.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Seperate",
+                            "b": "Separate",
+                            "c": "Seperete",
+                            "d": "Seprate"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Which of the following sentences is grammatically correct?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The list of items are on the desk.",
+                            "b": "The list of items is on the desk.",
+                            "c": "The list of items were on the desk.",
+                            "d": "The lists of item is on the desk."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "The company is looking for new __________ for its expansion project. Select the word with the correct spelling to fill in the blank.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Acommodation",
+                            "b": "Accomodation",
+                            "c": "Acomodation",
+                            "d": "Accommodation"
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "Select the sentence that is structurally and grammatically correct.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "While walking to the college, the rain started to pour.",
+                            "b": "The rain started to pour while walking to the college.",
+                            "c": "While I was walking to the college, the rain started to pour.",
+                            "d": "Pouring rain started while walking to the college."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Which sentence uses the correct word to indicate a quantity?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "There are less people in the hall than we expected.",
+                            "b": "I have lesser problems now that the project is complete.",
+                            "c": "You should drink less water in this heat.",
+                            "d": "Because of the discount, fewer people bought the product."
+                        },
+                        "answer": "d"
+                    }
+                ]
+            }
+        ]
+    }
+]

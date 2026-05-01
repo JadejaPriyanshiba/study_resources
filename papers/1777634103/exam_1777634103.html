@@ -1,0 +1,3151 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exam Simulator</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+            background: #f8f9fa;
+        }
+
+        .q {
+            padding: 15px;
+            border: 1px solid #ddd;
+            margin-bottom: 12px;
+            border-radius: 10px;
+            background: white;
+            transition: 0.3s;
+        }
+
+        .q:hover {
+            box-shadow: 0 0 10px rgba(0,0,0,0.08);
+        }
+
+        .option {
+            margin: 6px 0;
+            padding: 4px;
+            border-radius: 5px;
+        }
+
+        .submit {
+            padding: 12px 25px;
+            background: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 6px;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Exam Paper</h2>
+
+<div id="quiz">
+
+    <div class="q">
+        <p><b>Q1. A user is working on a document in MS Word, and suddenly the power goes out. The unsaved data is lost. Which type of memory is primarily responsible for holding this volatile data during the active session?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q0" value="a">
+                a) RAM (Random Access Memory)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q0" value="b">
+                b) ROM (Read-Only Memory)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q0" value="c">
+                c) HDD (Hard Disk Drive)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q0" value="d">
+                d) SSD (Solid State Drive)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q0" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q2. In HTML, to create a hyperlink that displays the text 'Click Here' and directs a user to the website 'https://www.example.com', what is the correct syntax?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q1" value="a">
+                a) &lt;a src=&#x27;https://www.example.com&#x27;&gt;Click Here&lt;/a&gt;
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q1" value="b">
+                b) &lt;link href=&#x27;https://www.example.com&#x27;&gt;Click Here&lt;/link&gt;
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q1" value="c">
+                c) &lt;a href=&#x27;https://www.example.com&#x27;&gt;Click Here&lt;/a&gt;
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q1" value="d">
+                d) &lt;a link=&#x27;https://www.example.com&#x27;&gt;Click Here&lt;/a&gt;
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q1" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q3. Which feature in MS-Word is specifically designed to create a large number of documents, like invitation letters, by combining a main document template with a data source (e.g., a list of names and addresses in an Excel sheet)?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q2" value="a">
+                a) Find and Replace
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q2" value="b">
+                b) AutoCorrect
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q2" value="c">
+                c) Track Changes
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q2" value="d">
+                d) Mail Merge
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q2" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q4. In an MS-Excel worksheet, the formula `=SUM(A1:A5)` is entered in cell A6. If you copy this formula from cell A6 and paste it into cell B6, what will the formula in cell B6 be?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q3" value="a">
+                a) =SUM(A1:A5)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q3" value="b">
+                b) =SUM($A$1:$A$5)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q3" value="c">
+                c) =SUM(B1:B5)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q3" value="d">
+                d) =SUM(A6:B6)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q3" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q5. In MS-PowerPoint, which view is most suitable for rearranging the sequence of slides and applying transition effects to multiple slides at once?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q4" value="a">
+                a) Normal View
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q4" value="b">
+                b) Slide Master View
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q4" value="c">
+                c) Notes Page View
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q4" value="d">
+                d) Slide Sorter View
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q4" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q6. The SI unit of pressure is Pascal (Pa). Its value in the CGS system is equivalent to:</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q5" value="a">
+                a) 1 dyne/cm²
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q5" value="b">
+                b) 10 dyne/cm²
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q5" value="c">
+                c) 100 dyne/cm²
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q5" value="d">
+                d) 1000 dyne/cm²
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q5" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q7. A physical quantity X is related to four observables a, b, c, and d as X = a²b³ / (c√d). The percentage errors in the measurement of a, b, c, and d are 1%, 2%, 3%, and 4% respectively. What is the total percentage error in X?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q6" value="a">
+                a) 10%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q6" value="b">
+                b) 8%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q6" value="c">
+                c) 13%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q6" value="d">
+                d) 3%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q6" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q8. In an experiment, the diameter of a steel ball is measured using a Vernier caliper with a least count of 0.01 cm. The Main Scale Reading (MSR) is 2.5 cm and the 7th division of the Vernier scale coincides with a division on the main scale. If the caliper has a positive zero error of +0.03 cm, the correct diameter of the ball is:</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q7" value="a">
+                a) 2.57 cm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q7" value="b">
+                b) 2.60 cm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q7" value="c">
+                c) 2.54 cm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q7" value="d">
+                d) 2.51 cm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q7" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q9. Which of the following pairs of physical quantities has the same dimensional formula?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q8" value="a">
+                a) Force and Work
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q8" value="b">
+                b) Impulse and Pressure
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q8" value="c">
+                c) Power and Energy
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q8" value="d">
+                d) Torque and Work
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q8" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q10. A student measures the thickness of a metal sheet using a micrometer screw gauge which has a pitch of 0.5 mm and 50 divisions on the circular scale. The main scale reading is 1.5 mm and the 32nd division of the circular scale coincides with the reference line. The instrument has a negative zero error of 0.04 mm. The correct thickness of the sheet is:</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q9" value="a">
+                a) 1.82 mm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q9" value="b">
+                b) 1.86 mm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q9" value="c">
+                c) 1.78 mm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q9" value="d">
+                d) 1.53 mm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q9" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q11. If the percentage error in the measurement of the radius of a sphere is 2%, then the percentage error in the calculation of its volume will be:</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q10" value="a">
+                a) 2%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q10" value="b">
+                b) 4%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q10" value="c">
+                c) 6%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q10" value="d">
+                d) 8%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q10" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q12. A block of mass 10 kg slides on a perfectly smooth (frictionless) horizontal surface with a constant velocity of 5 m/s. What is the net horizontal force acting on the block to maintain this motion?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q11" value="a">
+                a) 0 N
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q11" value="b">
+                b) 50 N
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q11" value="c">
+                c) 2 N
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q11" value="d">
+                d) 100 N
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q11" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q13. A cricket ball of mass 150 g travelling at 30 m/s is hit by a bat and returns along the same path with a velocity of 40 m/s. If the bat was in contact with the ball for 0.01 seconds, what is the magnitude of the average force exerted on the ball by the bat?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q12" value="a">
+                a) 150 N
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q12" value="b">
+                b) 1050 N
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q12" value="c">
+                c) 900 N
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q12" value="d">
+                d) 15 N
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q12" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q14. A particle moves in a uniform circular motion. If its linear speed is doubled while keeping the radius of the circular path constant, the required centripetal force will be:</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q13" value="a">
+                a) halved
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q13" value="b">
+                b) doubled
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q13" value="c">
+                c) quadrupled
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q13" value="d">
+                d) unchanged
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q13" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q15. A motor pump lifts 600 kg of water from a well 25 m deep to the surface in 30 seconds. Assuming the acceleration due to gravity (g) is 10 m/s², what is the power of the motor?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q14" value="a">
+                a) 2.5 kW
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q14" value="b">
+                b) 5.0 kW
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q14" value="c">
+                c) 7.5 kW
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q14" value="d">
+                d) 10.0 kW
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q14" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q16. A body of mass 'm' is suspended from a spring balance inside a lift. If the lift starts moving downwards with an acceleration 'a' (where a < g), the reading of the spring balance will be:</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q15" value="a">
+                a) mg
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q15" value="b">
+                b) m(g + a)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q15" value="c">
+                c) m(g - a)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q15" value="d">
+                d) 0
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q15" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q17. A stationary bomb of mass 9 kg explodes into two pieces of mass 3 kg and 6 kg. If the velocity of the 3 kg piece is 16 m/s, what is the kinetic energy of the 6 kg piece?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q16" value="a">
+                a) 192 J
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q16" value="b">
+                b) 288 J
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q16" value="c">
+                c) 384 J
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q16" value="d">
+                d) 96 J
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q16" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q18. Two point charges +4q and +q are placed 30 cm apart. At what point on the line joining them is the electric field zero?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q17" value="a">
+                a) 15 cm from the charge +4q
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q17" value="b">
+                b) 20 cm from the charge +4q
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q17" value="c">
+                c) 7.5 cm from the charge +q
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q17" value="d">
+                d) 5 cm from the charge +q
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q17" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q19. A copper wire of resistance R is uniformly stretched so that its length increases by 20%. What is the percentage increase in its resistance?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q18" value="a">
+                a) 20%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q18" value="b">
+                b) 40%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q18" value="c">
+                c) 44%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q18" value="d">
+                d) 25%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q18" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q20. In the given circuit, three resistors are connected to a 12V battery. What is the potential difference across the 4Ω resistor?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q19" value="a">
+                a) 4 V
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q19" value="b">
+                b) 6 V
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q19" value="c">
+                c) 8 V
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q19" value="d">
+                d) 12 V
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q19" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q21. The work done in moving a charge of -5 C from a point A with potential -10 V to a point B with potential +5 V in an electric field is:</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q20" value="a">
+                a) -75 J
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q20" value="b">
+                b) 75 J
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q20" value="c">
+                c) -25 J
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q20" value="d">
+                d) 25 J
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q20" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q22. A parallel plate capacitor with air as a dielectric has capacitance C. A slab of dielectric constant K and thickness d/2 is inserted between the plates, where d is the plate separation. The new capacitance is:</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q21" value="a">
+                a) (K+1)C/2
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q21" value="b">
+                b) 2KC/(K+1)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q21" value="c">
+                c) KC/2
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q21" value="d">
+                d) 2C
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q21" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q23. Three capacitors of capacitance 2μF, 3μF and 6μF are connected in series to a 10V source. The charge on the 3μF capacitor is:</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q22" value="a">
+                a) 5 μC
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q22" value="b">
+                b) 10 μC
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q22" value="c">
+                c) 12 μC
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q22" value="d">
+                d) 30 μC
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q22" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q24. At what temperature is the reading on the Fahrenheit scale exactly double the reading on the Celsius scale?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q23" value="a">
+                a) 80°C
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q23" value="b">
+                b) -40°C
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q23" value="c">
+                c) 160°C
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q23" value="d">
+                d) 320°C
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q23" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q25. A vacuum is maintained in a thermos flask to primarily reduce heat transfer by which of the following modes?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q24" value="a">
+                a) Conduction and Radiation
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q24" value="b">
+                b) Convection and Radiation
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q24" value="c">
+                c) Conduction and Convection
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q24" value="d">
+                d) Conduction only
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q24" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q26. A 1 kg block of lead (specific heat = 128 J/kg°C) and a 1 kg block of copper (specific heat = 387 J/kg°C) are both supplied with 1000 J of heat energy, starting from the same initial temperature. Which statement correctly describes the resulting temperature change (ΔT)?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q25" value="a">
+                a) The temperature of lead increases more than copper.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q25" value="b">
+                b) The temperature of copper increases more than lead.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q25" value="c">
+                c) The temperature of both increases by the same amount.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q25" value="d">
+                d) The temperature change depends on their initial temperatures.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q25" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q27. An iron rod of length 2.0 meters at an initial temperature of 300 K is heated to 600 K. If the coefficient of linear thermal expansion for iron is 12 x 10⁻⁶ /°C, what is the increase in the length of the rod?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q26" value="a">
+                a) 3.6 mm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q26" value="b">
+                b) 7.2 mm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q26" value="c">
+                c) 1.2 mm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q26" value="d">
+                d) 14.4 mm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q26" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q28. The rate of heat flow through a metal rod with uniform cross-section depends on several factors. If the length and radius of the rod are both doubled, the rate of heat flow for the same temperature difference will:</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q27" value="a">
+                a) be halved
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q27" value="b">
+                b) be doubled
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q27" value="c">
+                c) remain the same
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q27" value="d">
+                d) be quadrupled
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q27" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q29. The absolute zero of temperature (0 Kelvin) is theoretically defined as the temperature at which:</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q28" value="a">
+                a) Water freezes into ice at standard atmospheric pressure.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q28" value="b">
+                b) The kinetic energy of molecules becomes minimal due to cessation of translational motion.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q28" value="c">
+                c) All substances exist in the solid state.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q28" value="d">
+                d) Substances lose all their heat capacity.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q28" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q30. A progressive wave is described by the equation y(x, t) = 0.02 sin(8πx - 50πt), where x and y are in meters and t is in seconds. What is the speed of this wave?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q29" value="a">
+                a) 4.00 m/s
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q29" value="b">
+                b) 6.25 m/s
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q29" value="c">
+                c) 0.16 m/s
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q29" value="d">
+                d) 25.0 m/s
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q29" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q31. In an optical fiber, light travels from a core of refractive index 1.50 to a cladding of refractive index 1.47. Calculate the critical angle for the core-cladding interface. For total internal reflection to guide the light, the angle of incidence must be greater than this value.</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q30" value="a">
+                a) 11.54°
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q30" value="b">
+                b) 45.00°
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q30" value="c">
+                c) 78.52°
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q30" value="d">
+                d) 89.10°
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q30" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q32. According to Sabine's formula for reverberation time (T = 0.161 V / A), a lecture hall has a volume of 800 m³ and a reverberation time of 1.5 seconds. If a carpet with an absorption coefficient that adds 20 m² sabin to the total absorption is installed, what will be the approximate new reverberation time?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q31" value="a">
+                a) 2.25 s
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q31" value="b">
+                b) 1.09 s
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q31" value="c">
+                c) 1.50 s
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q31" value="d">
+                d) 0.86 s
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q31" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q33. Which of the following statements correctly distinguishes a stationary wave from a progressive wave?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q32" value="a">
+                a) In a stationary wave, all particles oscillate with the same amplitude, whereas in a progressive wave, amplitude varies.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q32" value="b">
+                b) Energy is continuously transferred in the direction of propagation in a stationary wave.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q32" value="c">
+                c) In a stationary wave, all particles between two consecutive nodes are in the same phase, which is not true for a progressive wave.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q32" value="d">
+                d) The phase difference between any two particles is constant in a stationary wave.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q32" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q34. An ultrasonic wave is a type of sound wave with a frequency above the human audible range. Which of the following is NOT a typical application of ultrasonic waves?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q33" value="a">
+                a) Medical imaging of internal organs (Sonography).
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q33" value="b">
+                b) Broadcasting radio and television signals.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q33" value="c">
+                c) Cleaning delicate instruments and jewelry.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q33" value="d">
+                d) Detecting flaws and cracks in metal structures (NDT).
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q33" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q35. LASER light is fundamentally different from light from an ordinary bulb. The property of LASER that makes it highly directional and capable of being focused to a very small spot is its:</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q34" value="a">
+                a) High intensity
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q34" value="b">
+                b) Monochromaticity
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q34" value="c">
+                c) Low divergence (high degree of collimation)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q34" value="d">
+                d) Ability to travel in a vacuum
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q34" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q36. When an aqueous solution of lead(II) nitrate is mixed with an aqueous solution of potassium iodide, a yellow precipitate of lead(II) iodide and an aqueous solution of potassium nitrate are formed. What is the sum of the stoichiometric coefficients of the *reactants* when the chemical equation is balanced with the smallest whole numbers?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q35" value="a">
+                a) 2
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q35" value="b">
+                b) 3
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q35" value="c">
+                c) 4
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q35" value="d">
+                d) 5
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q35" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q37. A student heats a green crystalline solid, ferrous sulphate heptahydrate (FeSO₄·7H₂O), in a test tube. Initially, the solid loses water molecules, and its colour changes. Upon strong heating, the anhydrous salt decomposes. Which observation and conclusion are correct for the final stage of strong heating?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q36" value="a">
+                a) A black residue of FeO is formed, and it is a combination reaction.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q36" value="b">
+                b) A reddish-brown residue of Fe₂O₃ is formed, and gases with the smell of burning sulphur are evolved. This is a thermal decomposition reaction.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q36" value="c">
+                c) A grey residue of pure Iron (Fe) is formed by displacing sulphate. This is a displacement reaction.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q36" value="d">
+                d) A yellow residue of FeS is formed, and it is a double displacement reaction with the air in the test tube.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q36" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q38. Identify the types of reactions for the following processes: 
+(i) Burning of magnesium ribbon in air to form magnesium oxide. 
+(ii) Action of dilute sulphuric acid on zinc granules. 
+(iii) Heating limestone (calcium carbonate) to get quicklime and carbon dioxide. 
+(iv) Mixing sodium sulphate solution with barium chloride solution to get a white precipitate.</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q37" value="a">
+                a) (i)-Combination, (ii)-Displacement, (iii)-Decomposition, (iv)-Double Displacement
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q37" value="b">
+                b) (i)-Decomposition, (ii)-Displacement, (iii)-Combination, (iv)-Double Displacement
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q37" value="c">
+                c) (i)-Combination, (ii)-Double Displacement, (iii)-Decomposition, (iv)-Displacement
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q37" value="d">
+                d) (i)-Displacement, (ii)-Combination, (iii)-Double Displacement, (iv)-Decomposition
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q37" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q39. A student is given four unlabelled rods: one made of copper, one of graphite, one of sulphur, and one of an iron-chromium alloy (stainless steel). Which of these rods, when used to complete a simple circuit with a bulb, will cause the bulb to light up, and which is an example of a non-metal exhibiting metallic lustre?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q38" value="a">
+                a) Conductor: Sulphur; Lustrous non-metal: Graphite
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q38" value="b">
+                b) Conductor: Copper; Lustrous non-metal: Stainless steel
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q38" value="c">
+                c) Conductor: Graphite; Lustrous non-metal: Sulphur
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q38" value="d">
+                d) Conductor: Copper, Graphite, Stainless steel; Lustrous non-metal: Graphite is often lustrous, but Iodine is a better example not listed.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q38" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q40. Consider the reaction of a metal 'M' with dilute nitric acid (HNO₃). Unlike other acids which produce hydrogen gas, dilute HNO₃ is a strong oxidizing agent and oxidizes the H₂ produced to water. However, two specific metals can react with very dilute HNO₃ to liberate H₂ gas. Identify this pair of metals from the options below.</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q39" value="a">
+                a) Sodium (Na) and Potassium (K)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q39" value="b">
+                b) Magnesium (Mg) and Manganese (Mn)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q39" value="c">
+                c) Aluminium (Al) and Zinc (Zn)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q39" value="d">
+                d) Copper (Cu) and Silver (Ag)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q39" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q41. An ionic compound, let's say Magnesium Oxide (MgO), has a very high melting point (2852 °C) and is a poor electrical conductor in its solid state. Which statement provides the most accurate and complete explanation for these two properties?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q40" value="a">
+                a) The transfer of two electrons from Mg to O creates weak covalent bonds, and electrons are delocalized in the solid.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q40" value="b">
+                b) The Mg²⁺ and O²⁻ ions are held in a fixed crystal lattice by very strong electrostatic forces, preventing both easy separation of ions and movement of charge carriers.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q40" value="c">
+                c) Magnesium Oxide is a molecular solid where individual MgO molecules have high mass, leading to a high melting point.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q40" value="d">
+                d) In the solid state, the ions vibrate too much to conduct electricity, but upon melting, they form free electrons which act as charge carriers.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q40" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q42. A small amount of black copper(II) oxide is warmed gently with dilute sulfuric acid. Which of the following correctly describes the observation and the chemical nature of the products formed?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q41" value="a">
+                a) A brisk effervescence is observed, and the products are copper, sulfur dioxide, and water.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q41" value="b">
+                b) The black solid dissolves to form a blue solution, and the products are a salt (copper sulfate) and water.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q41" value="c">
+                c) The solution remains colorless, but a pungent-smelling gas is released, indicating the decomposition of the acid.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q41" value="d">
+                d) A red-brown precipitate of copper is formed, and hydrogen gas is evolved.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q41" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q43. Two beakers, A and B, contain 100 mL of 0.1 M HCl and 100 mL of 0.1 M CH₃COOH respectively. If an equal amount of magnesium ribbon is added to each beaker, which statement is true regarding the reaction?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q42" value="a">
+                a) The rate of hydrogen gas evolution will be faster in beaker B because acetic acid is an organic acid.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q42" value="b">
+                b) The reaction will not occur in beaker B as acetic acid is too weak to react with magnesium.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q42" value="c">
+                c) The rate of fizzing will be faster in beaker A because it contains a higher concentration of H⁺(aq) ions.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q42" value="d">
+                d) The total amount of hydrogen gas produced will be greater in beaker A than in beaker B.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q42" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q44. A farmer finds that the soil in his field has a pH of 4.5. To grow crops like spinach that require a slightly alkaline soil, which of the following substances would be most appropriate for him to add to the soil to adjust its pH, and what is the underlying principle?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q43" value="a">
+                a) Add common salt (NaCl), as it is neutral and will buffer the soil pH to 7.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q43" value="b">
+                b) Add gypsum (calcium sulfate), as it is a salt that will release sulfate ions to neutralize the acidity.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q43" value="c">
+                c) Add slaked lime (calcium hydroxide), as its basic nature will neutralize the excess acid in the soil.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q43" value="d">
+                d) Add a large amount of compost, as it is acidic and will overpower the soil&#x27;s original acidity.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q43" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q45. Consider an aqueous solution of sodium acetate (CH₃COONa). What is the nature of this solution and what is the correct justification for it?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q44" value="a">
+                a) Acidic, because the Na⁺ ion reacts with water (hydrolyzes) to produce H⁺ ions.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q44" value="b">
+                b) Neutral, because it is a salt formed from a weak acid (CH₃COOH) and a weak base (NaOH).
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q44" value="c">
+                c) Basic, because the acetate ion (CH₃COO⁻) reacts with water (hydrolyzes) to produce OH⁻ ions.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q44" value="d">
+                d) Basic, because all sodium salts are basic in nature.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q44" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q46. In a terrestrial ecosystem, which statement most accurately describes the flow of energy? Consider the transfer from producers to tertiary consumers.</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q45" value="a">
+                a) Energy is cyclical, where decomposers return the total energy back to the producers.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q45" value="b">
+                b) The flow of energy is unidirectional, with a progressive loss of energy as heat at each trophic level.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q45" value="c">
+                c) Approximately 50% of the energy is conserved and transferred to the next higher trophic level.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q45" value="d">
+                d) Tertiary consumers receive the maximum amount of energy as they are at the top of the food chain.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q45" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q47. A water sample taken from an industrial outlet near a river shows a very high Biochemical Oxygen Demand (BOD). What does this directly indicate about the water quality?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q46" value="a">
+                a) The water has a high concentration of dissolved oxygen, making it ideal for aquatic life.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q46" value="b">
+                b) The water is heavily polluted with organic matter, which is being decomposed by microorganisms.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q46" value="c">
+                c) The water is contaminated with non-biodegradable heavy metals like cadmium and mercury.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q46" value="d">
+                d) The water has become highly acidic due to the discharge of industrial acids.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q46" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q48. Besides Carbon Dioxide (CO2), another significant greenhouse gas is Methane (CH4). Which of the following human activities is considered a primary source of anthropogenic methane emissions?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q47" value="a">
+                a) Combustion of fossil fuels in thermal power plants.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q47" value="b">
+                b) Use of nitrogen-based fertilizers in agriculture.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q47" value="c">
+                c) Livestock farming (enteric fermentation) and cultivation of paddy fields.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q47" value="d">
+                d) Leakage from air conditioners and refrigeration units.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q47" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q49. While solar energy is a promising renewable resource, its large-scale implementation faces certain limitations. Which of the following is a major practical and technical limitation of photovoltaic (PV) solar power generation?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q48" value="a">
+                a) The manufacturing process of solar panels consumes more energy than they produce in their lifetime.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q48" value="b">
+                b) Solar panels can only be installed in hot desert regions and are ineffective in temperate climates.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q48" value="c">
+                c) The power generation is intermittent, being dependent on daylight hours and clear weather conditions, thus requiring energy storage solutions.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q48" value="d">
+                d) The raw material, silicon, is extremely rare and its mining causes significant air pollution.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q48" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q50. Geothermal and Tidal energy are both renewable sources. What is the fundamental principle behind the generation of geothermal energy?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q49" value="a">
+                a) Utilizing the heat generated from the radioactive decay of elements within the Earth&#x27;s interior.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q49" value="b">
+                b) Harnessing the kinetic energy from the rise and fall of ocean water due to the moon&#x27;s gravitational pull.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q49" value="c">
+                c) Converting the potential energy of water stored at a height in large dams.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q49" value="d">
+                d) Using the temperature difference between deep and surface ocean water to run a heat engine.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q49" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q51. Read the following passage carefully and answer the questions that follow.
+
+In today's competitive job market, technical skills alone are no longer sufficient for professional success. While your diploma in engineering or technology provides the foundational knowledge for your field, it is the soft skills that often act as the key differentiator. Soft skills, also known as interpersonal or people skills, include communication, teamwork, problem-solving, and time management. A recent survey conducted by the National Association of Colleges and Employers (NACE) found that employers consistently rank these skills as more important than technical abilities when hiring new graduates.
+
+Consider the example of two fresh diploma holders, Rohan and Sameer, both with excellent academic records. Rohan is technically brilliant but struggles to articulate his ideas during group discussions and often prefers to work alone. Sameer, on the other hand, while equally competent, is also a great communicator who actively listens to his peers and collaborates effectively on projects. When faced with a complex problem, Sameer is more likely to leverage the collective knowledge of his team to find an innovative solution. Consequently, employers often perceive candidates like Sameer as having higher long-term potential. Therefore, it is crucial for diploma students to actively cultivate these skills through participation in group projects, presentations, and extracurricular activities.
+
+What is the primary message of the passage?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q50" value="a">
+                a) Technical skills are the most important for getting a job.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q50" value="b">
+                b) Soft skills are more crucial for professional success than just technical knowledge.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q50" value="c">
+                c) Rohan is a better employee than Sameer.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q50" value="d">
+                d) Extracurricular activities are not important for diploma students.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q50" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q52. According to the NACE survey mentioned in the passage, what do employers value most when hiring new graduates?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q51" value="a">
+                a) High academic scores
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q51" value="b">
+                b) The reputation of the polytechnic college
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q51" value="c">
+                c) Skills like communication and teamwork
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q51" value="d">
+                d) The ability to work alone
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q51" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q53. Why is a candidate like Sameer likely to be perceived as having higher long-term potential?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q52" value="a">
+                a) Because he has a better academic record than Rohan.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q52" value="b">
+                b) Because he avoids group discussions and focuses on his own work.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q52" value="c">
+                c) Because his ability to communicate and collaborate makes him a more effective team member.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q52" value="d">
+                d) Because he only possesses soft skills and no technical knowledge.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q52" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q54. In the passage, what does the word "articulate" mean?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q53" value="a">
+                a) To work in a team
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q53" value="b">
+                b) To solve complex problems
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q53" value="c">
+                c) To express ideas clearly
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q53" value="d">
+                d) To have a good academic record
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q53" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q55. How does the passage suggest that diploma students can develop their soft skills?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q54" value="a">
+                a) By focusing solely on their technical subjects.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q54" value="b">
+                b) By avoiding group work to improve individual performance.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q54" value="c">
+                c) By memorizing textbook definitions of soft skills.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q54" value="d">
+                d) By engaging in group projects, presentations, and extracurricular activities.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q54" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q56. A team leader sends a detailed email with instructions for a new task. A team member replies with a 'thumbs-up' emoji but later completes the task incorrectly because he misunderstood a key instruction. In this scenario, which element of the communication process was present but proved to be ineffective?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q55" value="a">
+                a) Encoding
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q55" value="b">
+                b) Channel
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q55" value="c">
+                c) Decoding
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q55" value="d">
+                d) Feedback
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q55" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q57. During a job interview, a candidate says, 'I work very well under pressure.' However, while saying this, he is tapping his foot rapidly, speaking very quickly, and avoiding direct eye contact with the interviewer. What can be most accurately concluded from this situation?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q56" value="a">
+                a) The verbal message is more trustworthy than the non-verbal cues.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q56" value="b">
+                b) The candidate&#x27;s paralanguage (fast speech) reinforces his verbal statement.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q56" value="c">
+                c) The non-verbal cues (kinesics) are contradicting the verbal message, suggesting anxiety.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q56" value="d">
+                d) The physical environment (proxemics) is the main barrier to communication.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q56" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q58. A senior software developer from a metropolitan city is explaining a code to a new intern from a rural area. The developer uses a lot of complex technical jargon and modern corporate slang. The intern, despite being skilled, struggles to understand the explanation and hesitates to ask for clarification. What is the primary communication barrier in this context?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q57" value="a">
+                a) Physical Barrier
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q57" value="b">
+                b) Organisational Barrier
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q57" value="c">
+                c) Semantic Barrier
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q57" value="d">
+                d) Technological Barrier
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q57" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q59. In the communication process model, what is the crucial step that the sender performs when they convert their thoughts, ideas, or feelings into a message (words, symbols, or gestures) that can be sent?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q58" value="a">
+                a) Decoding
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q58" value="b">
+                b) Encoding
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q58" value="c">
+                c) Transmitting
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q58" value="d">
+                d) Feedback Loop
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q58" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q60. A manager is discussing a sensitive performance issue with an employee. Instead of sitting behind his large, imposing desk, he chooses to sit next to the employee at a round table. This conscious choice of arrangement and distance to create a more collaborative and less intimidating atmosphere is a deliberate use of which form of non-verbal communication?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q59" value="a">
+                a) Chronemics
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q59" value="b">
+                b) Haptics
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q59" value="c">
+                c) Artifacts
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q59" value="d">
+                d) Proxemics
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q59" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q61. In a formal business letter using the full block format, what component immediately follows the Inside Address?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q60" value="a">
+                a) The Date
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q60" value="b">
+                b) The Salutation (e.g., Dear Sir/Madam)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q60" value="c">
+                c) The Subject Line
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q60" value="d">
+                d) The Sender&#x27;s Address
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q60" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q62. A potential customer writes to your company asking for a product catalogue and a price list for bulk purchases. Your response, providing the requested details and encouraging them to place an order, would be classified as which type of business letter?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q61" value="a">
+                a) Letter of Inquiry
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q61" value="b">
+                b) Order Letter
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q61" value="c">
+                c) Reply to an Inquiry
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q61" value="d">
+                d) Adjustment Letter
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q61" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q63. You have received a complaint letter from a customer about a delayed shipment. Your letter back to the customer apologizes for the delay, explains the unforeseen reason, and confirms a new dispatch date. This letter is a classic example of an:</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q62" value="a">
+                a) Order Letter
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q62" value="b">
+                b) Adjustment Letter
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q62" value="c">
+                c) Inquiry Letter
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q62" value="d">
+                d) Complaint Letter
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q62" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q64. At the end of a formal business letter, you see the notation 'Encl: 2'. What does this specifically indicate to the recipient?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q63" value="a">
+                a) The letter is the second one in a series of communications.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q63" value="b">
+                b) Two people have been sent a copy of this letter.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q63" value="c">
+                c) There are two separate documents included in the envelope with the letter.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q63" value="d">
+                d) The letter should be replied to within two business days.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q63" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q65. While structuring a professional email, which component serves a similar purpose to the 'Inside Address' and 'Return Address' of a traditional business letter, by automatically providing sender and receiver information?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q64" value="a">
+                a) The email signature block
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q64" value="b">
+                b) The body of the email
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q64" value="c">
+                c) The Subject line
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q64" value="d">
+                d) The email header (To, From, Date fields)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q64" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q66. In the sentence 'Alas! The very old professor spoke quite softly during the long lecture.', what are the respective parts of speech for the words 'Alas', 'softly', and 'long'?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q65" value="a">
+                a) Interjection, Adverb, Adjective
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q65" value="b">
+                b) Noun, Adjective, Adverb
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q65" value="c">
+                c) Interjection, Adjective, Preposition
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q65" value="d">
+                d) Connector, Verb, Noun
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q65" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q67. Choose the correct verb tense to complete the sentence: 'The train ______ the platform just moments before we arrived.'</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q66" value="a">
+                a) is leaving
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q66" value="b">
+                b) has left
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q66" value="c">
+                c) had left
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q66" value="d">
+                d) will leave
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q66" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q68. Select the sentence with the correct subject-verb agreement.</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q67" value="a">
+                a) The list of necessary items are on the desk.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q67" value="b">
+                b) Neither the students nor the teacher were present in the hall.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q67" value="c">
+                c) Each of the new employees has to undergo training.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q67" value="d">
+                d) The team of experts agrees on most points.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q67" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q69. Fill in the blanks with the most appropriate preposition and connector: 'The project must be completed ______ the deadline, ______ it will not be accepted.'</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q68" value="a">
+                a) on, but
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q68" value="b">
+                b) by, otherwise
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q68" value="c">
+                c) at, because
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q68" value="d">
+                d) in, until
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q68" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q70. Identify the sentence that uses pronouns correctly.</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q69" value="a">
+                a) The dog wagged it&#x27;s tail excitedly.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q69" value="b">
+                b) The committee has submitted its report to the director.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q69" value="c">
+                c) The manager asked my colleague and I to stay late.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q69" value="d">
+                d) One should always do their best to help others.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q69" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q71. Choose the correctly spelled word to fill in the blank: The new hostel can __________ one hundred students.</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q70" value="a">
+                a) acomodate
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q70" value="b">
+                b) accommodate
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q70" value="c">
+                c) accomodate
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q70" value="d">
+                d) acommodate
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q70" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q72. Choose the grammatically correct sentence from the following options.</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q71" value="a">
+                a) One of my friends are coming to the party tonight.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q71" value="b">
+                b) One of my friends is coming to the party tonight.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q71" value="c">
+                c) One of my friend are coming to the party tonight.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q71" value="d">
+                d) One of my friends be coming to the party tonight.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q71" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q73. The project manager acts as a __________ between the development team and the client.</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q72" value="a">
+                a) liason
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q72" value="b">
+                b) laison
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q72" value="c">
+                c) liaison
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q72" value="d">
+                d) liasion
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q72" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q74. Select the sentence that is grammatically and structurally correct.</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q73" value="a">
+                a) Although he studied hard for the exam he did not score well.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q73" value="b">
+                b) Although, he studied hard for the exam, he did not score well.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q73" value="c">
+                c) Although he studied hard for the exam, he did not score well.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q73" value="d">
+                d) He did not score well, although he studied hard for the exam.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q73" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q75. Choose the correct sentence from the options below.</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q74" value="a">
+                a) The manager gave the detailed report to Sheetal and I.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q74" value="b">
+                b) The manager gave the detailed report to I and Sheetal.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q74" value="c">
+                c) The manager gave the detailed report to Sheetal and myself.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q74" value="d">
+                d) The manager gave the detailed report to Sheetal and me.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q74" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+</div>
+
+<button class="submit" onclick="calculateScore()">Submit Test</button>
+
+<h3 id="result"></h3>
+
+<script>
+
+const correctAnswers = {};
+correctAnswers["q0"] = "a";
+correctAnswers["q1"] = "c";
+correctAnswers["q2"] = "d";
+correctAnswers["q3"] = "c";
+correctAnswers["q4"] = "d";
+correctAnswers["q5"] = "b";
+correctAnswers["q6"] = "c";
+correctAnswers["q7"] = "c";
+correctAnswers["q8"] = "d";
+correctAnswers["q9"] = "b";
+correctAnswers["q10"] = "c";
+correctAnswers["q11"] = "a";
+correctAnswers["q12"] = "b";
+correctAnswers["q13"] = "c";
+correctAnswers["q14"] = "b";
+correctAnswers["q15"] = "c";
+correctAnswers["q16"] = "a";
+correctAnswers["q17"] = "b";
+correctAnswers["q18"] = "c";
+correctAnswers["q19"] = "c";
+correctAnswers["q20"] = "a";
+correctAnswers["q21"] = "b";
+correctAnswers["q22"] = "b";
+correctAnswers["q23"] = "c";
+correctAnswers["q24"] = "c";
+correctAnswers["q25"] = "a";
+correctAnswers["q26"] = "b";
+correctAnswers["q27"] = "b";
+correctAnswers["q28"] = "b";
+correctAnswers["q29"] = "b";
+correctAnswers["q30"] = "c";
+correctAnswers["q31"] = "b";
+correctAnswers["q32"] = "c";
+correctAnswers["q33"] = "b";
+correctAnswers["q34"] = "c";
+correctAnswers["q35"] = "b";
+correctAnswers["q36"] = "b";
+correctAnswers["q37"] = "a";
+correctAnswers["q38"] = "d";
+correctAnswers["q39"] = "b";
+correctAnswers["q40"] = "b";
+correctAnswers["q41"] = "b";
+correctAnswers["q42"] = "c";
+correctAnswers["q43"] = "c";
+correctAnswers["q44"] = "c";
+correctAnswers["q45"] = "b";
+correctAnswers["q46"] = "b";
+correctAnswers["q47"] = "c";
+correctAnswers["q48"] = "c";
+correctAnswers["q49"] = "a";
+correctAnswers["q50"] = "b";
+correctAnswers["q51"] = "c";
+correctAnswers["q52"] = "c";
+correctAnswers["q53"] = "c";
+correctAnswers["q54"] = "d";
+correctAnswers["q55"] = "d";
+correctAnswers["q56"] = "c";
+correctAnswers["q57"] = "c";
+correctAnswers["q58"] = "b";
+correctAnswers["q59"] = "d";
+correctAnswers["q60"] = "c";
+correctAnswers["q61"] = "c";
+correctAnswers["q62"] = "b";
+correctAnswers["q63"] = "c";
+correctAnswers["q64"] = "d";
+correctAnswers["q65"] = "a";
+correctAnswers["q66"] = "c";
+correctAnswers["q67"] = "c";
+correctAnswers["q68"] = "b";
+correctAnswers["q69"] = "b";
+correctAnswers["q70"] = "b";
+correctAnswers["q71"] = "b";
+correctAnswers["q72"] = "c";
+correctAnswers["q73"] = "c";
+correctAnswers["q74"] = "d";
+
+
+const POS = 2;
+const NEG = 0.5;
+const QUESTIONS_COUNT = 75;
+
+let submitted = false;
+
+function calculateScore() {
+
+    if (submitted) return;
+    submitted = true;
+
+    let score = 0;
+
+    for (let i = 0; i < QUESTIONS_COUNT; i++) {
+
+        let selected = document.querySelector('input[name="q'+i+'"]:checked');
+        let correct = correctAnswers["q"+i];
+
+        let questionDiv = document.getElementsByClassName("q")[i];
+
+        let userAns = selected ? selected.value : "none";
+
+        let resultLine = document.createElement("p");
+
+        // -----------------------------
+        // HIGHLIGHT LOGIC
+        // -----------------------------
+        let options = questionDiv.querySelectorAll("input");
+
+        options.forEach(opt => {
+            let label = opt.parentElement;
+
+            // correct answer highlight (green)
+            if (opt.value === correct) {
+                label.style.background = "#d4f7d4";
+            }
+
+            // wrong selected highlight (red)
+            if (opt.checked && opt.value !== correct && opt.value !== "none") {
+                label.style.background = "#ffd6d6";
+            }
+
+            // disable after submit
+            opt.disabled = true;
+        });
+
+        // -----------------------------
+        // SCORING LOGIC
+        // -----------------------------
+        if (userAns === correct) {
+            score += POS;
+            resultLine.innerHTML = "✅ Correct";
+            resultLine.style.color = "green";
+        } 
+        else if (userAns === "none") {
+            resultLine.innerHTML = "⚪ Skipped | Correct: " + correct;
+            resultLine.style.color = "#666";
+        } 
+        else {
+            score -= NEG;
+            resultLine.innerHTML = "❌ Wrong | Your: " + userAns + " | Correct: " + correct;
+            resultLine.style.color = "red";
+        }
+
+        questionDiv.appendChild(resultLine);
+    }
+
+    document.getElementById("result").innerHTML =
+        "<b>Final Score: " + score + " / " + QUESTIONS_COUNT + "</b>";
+}
+
+</script>
+
+</body>
+</html>

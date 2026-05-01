@@ -1,0 +1,927 @@
+[
+    {
+        "subject": "computer practices",
+        "units": [
+            {
+                "name": "basics",
+                "questions": [
+                    {
+                        "question": "A user is working on a document in MS Word, and suddenly the power goes out. The unsaved data is lost. Which type of memory is primarily responsible for holding this volatile data during the active session?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "RAM (Random Access Memory)",
+                            "b": "ROM (Read-Only Memory)",
+                            "c": "HDD (Hard Disk Drive)",
+                            "d": "SSD (Solid State Drive)"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "In HTML, to create a hyperlink that displays the text 'Click Here' and directs a user to the website 'https://www.example.com', what is the correct syntax?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "<a src='https://www.example.com'>Click Here</a>",
+                            "b": "<link href='https://www.example.com'>Click Here</link>",
+                            "c": "<a href='https://www.example.com'>Click Here</a>",
+                            "d": "<a link='https://www.example.com'>Click Here</a>"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Which feature in MS-Word is specifically designed to create a large number of documents, like invitation letters, by combining a main document template with a data source (e.g., a list of names and addresses in an Excel sheet)?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Find and Replace",
+                            "b": "AutoCorrect",
+                            "c": "Track Changes",
+                            "d": "Mail Merge"
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "In an MS-Excel worksheet, the formula `=SUM(A1:A5)` is entered in cell A6. If you copy this formula from cell A6 and paste it into cell B6, what will the formula in cell B6 be?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "=SUM(A1:A5)",
+                            "b": "=SUM($A$1:$A$5)",
+                            "c": "=SUM(B1:B5)",
+                            "d": "=SUM(A6:B6)"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "In MS-PowerPoint, which view is most suitable for rearranging the sequence of slides and applying transition effects to multiple slides at once?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Normal View",
+                            "b": "Slide Master View",
+                            "c": "Notes Page View",
+                            "d": "Slide Sorter View"
+                        },
+                        "answer": "d"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subject": "physics",
+        "units": [
+            {
+                "name": "units and measurements",
+                "questions": [
+                    {
+                        "question": "The SI unit of pressure is Pascal (Pa). Its value in the CGS system is equivalent to:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "1 dyne/cm\u00b2",
+                            "b": "10 dyne/cm\u00b2",
+                            "c": "100 dyne/cm\u00b2",
+                            "d": "1000 dyne/cm\u00b2"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "A physical quantity X is related to four observables a, b, c, and d as X = a\u00b2b\u00b3 / (c\u221ad). The percentage errors in the measurement of a, b, c, and d are 1%, 2%, 3%, and 4% respectively. What is the total percentage error in X?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "10%",
+                            "b": "8%",
+                            "c": "13%",
+                            "d": "3%"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "In an experiment, the diameter of a steel ball is measured using a Vernier caliper with a least count of 0.01 cm. The Main Scale Reading (MSR) is 2.5 cm and the 7th division of the Vernier scale coincides with a division on the main scale. If the caliper has a positive zero error of +0.03 cm, the correct diameter of the ball is:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "2.57 cm",
+                            "b": "2.60 cm",
+                            "c": "2.54 cm",
+                            "d": "2.51 cm"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Which of the following pairs of physical quantities has the same dimensional formula?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Force and Work",
+                            "b": "Impulse and Pressure",
+                            "c": "Power and Energy",
+                            "d": "Torque and Work"
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "A student measures the thickness of a metal sheet using a micrometer screw gauge which has a pitch of 0.5 mm and 50 divisions on the circular scale. The main scale reading is 1.5 mm and the 32nd division of the circular scale coincides with the reference line. The instrument has a negative zero error of 0.04 mm. The correct thickness of the sheet is:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "1.82 mm",
+                            "b": "1.86 mm",
+                            "c": "1.78 mm",
+                            "d": "1.53 mm"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "If the percentage error in the measurement of the radius of a sphere is 2%, then the percentage error in the calculation of its volume will be:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "2%",
+                            "b": "4%",
+                            "c": "6%",
+                            "d": "8%"
+                        },
+                        "answer": "c"
+                    }
+                ]
+            },
+            {
+                "name": "classical mechanics",
+                "questions": [
+                    {
+                        "question": "A block of mass 10 kg slides on a perfectly smooth (frictionless) horizontal surface with a constant velocity of 5 m/s. What is the net horizontal force acting on the block to maintain this motion?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "0 N",
+                            "b": "50 N",
+                            "c": "2 N",
+                            "d": "100 N"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "A cricket ball of mass 150 g travelling at 30 m/s is hit by a bat and returns along the same path with a velocity of 40 m/s. If the bat was in contact with the ball for 0.01 seconds, what is the magnitude of the average force exerted on the ball by the bat?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "150 N",
+                            "b": "1050 N",
+                            "c": "900 N",
+                            "d": "15 N"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "A particle moves in a uniform circular motion. If its linear speed is doubled while keeping the radius of the circular path constant, the required centripetal force will be:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "halved",
+                            "b": "doubled",
+                            "c": "quadrupled",
+                            "d": "unchanged"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "A motor pump lifts 600 kg of water from a well 25 m deep to the surface in 30 seconds. Assuming the acceleration due to gravity (g) is 10 m/s\u00b2, what is the power of the motor?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "2.5 kW",
+                            "b": "5.0 kW",
+                            "c": "7.5 kW",
+                            "d": "10.0 kW"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "A body of mass 'm' is suspended from a spring balance inside a lift. If the lift starts moving downwards with an acceleration 'a' (where a < g), the reading of the spring balance will be:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "mg",
+                            "b": "m(g + a)",
+                            "c": "m(g - a)",
+                            "d": "0"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "A stationary bomb of mass 9 kg explodes into two pieces of mass 3 kg and 6 kg. If the velocity of the 3 kg piece is 16 m/s, what is the kinetic energy of the 6 kg piece?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "192 J",
+                            "b": "288 J",
+                            "c": "384 J",
+                            "d": "96 J"
+                        },
+                        "answer": "a"
+                    }
+                ]
+            },
+            {
+                "name": "electricity",
+                "questions": [
+                    {
+                        "question": "Two point charges +4q and +q are placed 30 cm apart. At what point on the line joining them is the electric field zero?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "15 cm from the charge +4q",
+                            "b": "20 cm from the charge +4q",
+                            "c": "7.5 cm from the charge +q",
+                            "d": "5 cm from the charge +q"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "A copper wire of resistance R is uniformly stretched so that its length increases by 20%. What is the percentage increase in its resistance?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "20%",
+                            "b": "40%",
+                            "c": "44%",
+                            "d": "25%"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "In the given circuit, three resistors are connected to a 12V battery. What is the potential difference across the 4\u03a9 resistor?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "4 V",
+                            "b": "6 V",
+                            "c": "8 V",
+                            "d": "12 V"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "The work done in moving a charge of -5 C from a point A with potential -10 V to a point B with potential +5 V in an electric field is:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "-75 J",
+                            "b": "75 J",
+                            "c": "-25 J",
+                            "d": "25 J"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "A parallel plate capacitor with air as a dielectric has capacitance C. A slab of dielectric constant K and thickness d/2 is inserted between the plates, where d is the plate separation. The new capacitance is:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "(K+1)C/2",
+                            "b": "2KC/(K+1)",
+                            "c": "KC/2",
+                            "d": "2C"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Three capacitors of capacitance 2\u03bcF, 3\u03bcF and 6\u03bcF are connected in series to a 10V source. The charge on the 3\u03bcF capacitor is:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "5 \u03bcC",
+                            "b": "10 \u03bcC",
+                            "c": "12 \u03bcC",
+                            "d": "30 \u03bcC"
+                        },
+                        "answer": "b"
+                    }
+                ]
+            },
+            {
+                "name": "heat and thermometry",
+                "questions": [
+                    {
+                        "question": "At what temperature is the reading on the Fahrenheit scale exactly double the reading on the Celsius scale?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "80\u00b0C",
+                            "b": "-40\u00b0C",
+                            "c": "160\u00b0C",
+                            "d": "320\u00b0C"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "A vacuum is maintained in a thermos flask to primarily reduce heat transfer by which of the following modes?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Conduction and Radiation",
+                            "b": "Convection and Radiation",
+                            "c": "Conduction and Convection",
+                            "d": "Conduction only"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "A 1 kg block of lead (specific heat = 128 J/kg\u00b0C) and a 1 kg block of copper (specific heat = 387 J/kg\u00b0C) are both supplied with 1000 J of heat energy, starting from the same initial temperature. Which statement correctly describes the resulting temperature change (\u0394T)?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The temperature of lead increases more than copper.",
+                            "b": "The temperature of copper increases more than lead.",
+                            "c": "The temperature of both increases by the same amount.",
+                            "d": "The temperature change depends on their initial temperatures."
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "An iron rod of length 2.0 meters at an initial temperature of 300 K is heated to 600 K. If the coefficient of linear thermal expansion for iron is 12 x 10\u207b\u2076 /\u00b0C, what is the increase in the length of the rod?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "3.6 mm",
+                            "b": "7.2 mm",
+                            "c": "1.2 mm",
+                            "d": "14.4 mm"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "The rate of heat flow through a metal rod with uniform cross-section depends on several factors. If the length and radius of the rod are both doubled, the rate of heat flow for the same temperature difference will:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "be halved",
+                            "b": "be doubled",
+                            "c": "remain the same",
+                            "d": "be quadrupled"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "The absolute zero of temperature (0 Kelvin) is theoretically defined as the temperature at which:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Water freezes into ice at standard atmospheric pressure.",
+                            "b": "The kinetic energy of molecules becomes minimal due to cessation of translational motion.",
+                            "c": "All substances exist in the solid state.",
+                            "d": "Substances lose all their heat capacity."
+                        },
+                        "answer": "b"
+                    }
+                ]
+            },
+            {
+                "name": "waves and acoustics",
+                "questions": [
+                    {
+                        "question": "A progressive wave is described by the equation y(x, t) = 0.02 sin(8\u03c0x - 50\u03c0t), where x and y are in meters and t is in seconds. What is the speed of this wave?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "4.00 m/s",
+                            "b": "6.25 m/s",
+                            "c": "0.16 m/s",
+                            "d": "25.0 m/s"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "In an optical fiber, light travels from a core of refractive index 1.50 to a cladding of refractive index 1.47. Calculate the critical angle for the core-cladding interface. For total internal reflection to guide the light, the angle of incidence must be greater than this value.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "11.54\u00b0",
+                            "b": "45.00\u00b0",
+                            "c": "78.52\u00b0",
+                            "d": "89.10\u00b0"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "According to Sabine's formula for reverberation time (T = 0.161 V / A), a lecture hall has a volume of 800 m\u00b3 and a reverberation time of 1.5 seconds. If a carpet with an absorption coefficient that adds 20 m\u00b2 sabin to the total absorption is installed, what will be the approximate new reverberation time?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "2.25 s",
+                            "b": "1.09 s",
+                            "c": "1.50 s",
+                            "d": "0.86 s"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Which of the following statements correctly distinguishes a stationary wave from a progressive wave?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "In a stationary wave, all particles oscillate with the same amplitude, whereas in a progressive wave, amplitude varies.",
+                            "b": "Energy is continuously transferred in the direction of propagation in a stationary wave.",
+                            "c": "In a stationary wave, all particles between two consecutive nodes are in the same phase, which is not true for a progressive wave.",
+                            "d": "The phase difference between any two particles is constant in a stationary wave."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "An ultrasonic wave is a type of sound wave with a frequency above the human audible range. Which of the following is NOT a typical application of ultrasonic waves?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Medical imaging of internal organs (Sonography).",
+                            "b": "Broadcasting radio and television signals.",
+                            "c": "Cleaning delicate instruments and jewelry.",
+                            "d": "Detecting flaws and cracks in metal structures (NDT)."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "LASER light is fundamentally different from light from an ordinary bulb. The property of LASER that makes it highly directional and capable of being focused to a very small spot is its:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "High intensity",
+                            "b": "Monochromaticity",
+                            "c": "Low divergence (high degree of collimation)",
+                            "d": "Ability to travel in a vacuum"
+                        },
+                        "answer": "c"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subject": "chemistry",
+        "units": [
+            {
+                "name": "chemical equations and reactions",
+                "questions": [
+                    {
+                        "question": "When an aqueous solution of lead(II) nitrate is mixed with an aqueous solution of potassium iodide, a yellow precipitate of lead(II) iodide and an aqueous solution of potassium nitrate are formed. What is the sum of the stoichiometric coefficients of the *reactants* when the chemical equation is balanced with the smallest whole numbers?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "2",
+                            "b": "3",
+                            "c": "4",
+                            "d": "5"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "A student heats a green crystalline solid, ferrous sulphate heptahydrate (FeSO\u2084\u00b77H\u2082O), in a test tube. Initially, the solid loses water molecules, and its colour changes. Upon strong heating, the anhydrous salt decomposes. Which observation and conclusion are correct for the final stage of strong heating?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "A black residue of FeO is formed, and it is a combination reaction.",
+                            "b": "A reddish-brown residue of Fe\u2082O\u2083 is formed, and gases with the smell of burning sulphur are evolved. This is a thermal decomposition reaction.",
+                            "c": "A grey residue of pure Iron (Fe) is formed by displacing sulphate. This is a displacement reaction.",
+                            "d": "A yellow residue of FeS is formed, and it is a double displacement reaction with the air in the test tube."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Identify the types of reactions for the following processes: \n(i) Burning of magnesium ribbon in air to form magnesium oxide. \n(ii) Action of dilute sulphuric acid on zinc granules. \n(iii) Heating limestone (calcium carbonate) to get quicklime and carbon dioxide. \n(iv) Mixing sodium sulphate solution with barium chloride solution to get a white precipitate.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "(i)-Combination, (ii)-Displacement, (iii)-Decomposition, (iv)-Double Displacement",
+                            "b": "(i)-Decomposition, (ii)-Displacement, (iii)-Combination, (iv)-Double Displacement",
+                            "c": "(i)-Combination, (ii)-Double Displacement, (iii)-Decomposition, (iv)-Displacement",
+                            "d": "(i)-Displacement, (ii)-Combination, (iii)-Double Displacement, (iv)-Decomposition"
+                        },
+                        "answer": "a"
+                    }
+                ]
+            },
+            {
+                "name": "metals and non-metals",
+                "questions": [
+                    {
+                        "question": "A student is given four unlabelled rods: one made of copper, one of graphite, one of sulphur, and one of an iron-chromium alloy (stainless steel). Which of these rods, when used to complete a simple circuit with a bulb, will cause the bulb to light up, and which is an example of a non-metal exhibiting metallic lustre?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Conductor: Sulphur; Lustrous non-metal: Graphite",
+                            "b": "Conductor: Copper; Lustrous non-metal: Stainless steel",
+                            "c": "Conductor: Graphite; Lustrous non-metal: Sulphur",
+                            "d": "Conductor: Copper, Graphite, Stainless steel; Lustrous non-metal: Graphite is often lustrous, but Iodine is a better example not listed."
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "Consider the reaction of a metal 'M' with dilute nitric acid (HNO\u2083). Unlike other acids which produce hydrogen gas, dilute HNO\u2083 is a strong oxidizing agent and oxidizes the H\u2082 produced to water. However, two specific metals can react with very dilute HNO\u2083 to liberate H\u2082 gas. Identify this pair of metals from the options below.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Sodium (Na) and Potassium (K)",
+                            "b": "Magnesium (Mg) and Manganese (Mn)",
+                            "c": "Aluminium (Al) and Zinc (Zn)",
+                            "d": "Copper (Cu) and Silver (Ag)"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "An ionic compound, let's say Magnesium Oxide (MgO), has a very high melting point (2852 \u00b0C) and is a poor electrical conductor in its solid state. Which statement provides the most accurate and complete explanation for these two properties?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The transfer of two electrons from Mg to O creates weak covalent bonds, and electrons are delocalized in the solid.",
+                            "b": "The Mg\u00b2\u207a and O\u00b2\u207b ions are held in a fixed crystal lattice by very strong electrostatic forces, preventing both easy separation of ions and movement of charge carriers.",
+                            "c": "Magnesium Oxide is a molecular solid where individual MgO molecules have high mass, leading to a high melting point.",
+                            "d": "In the solid state, the ions vibrate too much to conduct electricity, but upon melting, they form free electrons which act as charge carriers."
+                        },
+                        "answer": "b"
+                    }
+                ]
+            },
+            {
+                "name": "acids, bases and salts",
+                "questions": [
+                    {
+                        "question": "A small amount of black copper(II) oxide is warmed gently with dilute sulfuric acid. Which of the following correctly describes the observation and the chemical nature of the products formed?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "A brisk effervescence is observed, and the products are copper, sulfur dioxide, and water.",
+                            "b": "The black solid dissolves to form a blue solution, and the products are a salt (copper sulfate) and water.",
+                            "c": "The solution remains colorless, but a pungent-smelling gas is released, indicating the decomposition of the acid.",
+                            "d": "A red-brown precipitate of copper is formed, and hydrogen gas is evolved."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Two beakers, A and B, contain 100 mL of 0.1 M HCl and 100 mL of 0.1 M CH\u2083COOH respectively. If an equal amount of magnesium ribbon is added to each beaker, which statement is true regarding the reaction?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The rate of hydrogen gas evolution will be faster in beaker B because acetic acid is an organic acid.",
+                            "b": "The reaction will not occur in beaker B as acetic acid is too weak to react with magnesium.",
+                            "c": "The rate of fizzing will be faster in beaker A because it contains a higher concentration of H\u207a(aq) ions.",
+                            "d": "The total amount of hydrogen gas produced will be greater in beaker A than in beaker B."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "A farmer finds that the soil in his field has a pH of 4.5. To grow crops like spinach that require a slightly alkaline soil, which of the following substances would be most appropriate for him to add to the soil to adjust its pH, and what is the underlying principle?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Add common salt (NaCl), as it is neutral and will buffer the soil pH to 7.",
+                            "b": "Add gypsum (calcium sulfate), as it is a salt that will release sulfate ions to neutralize the acidity.",
+                            "c": "Add slaked lime (calcium hydroxide), as its basic nature will neutralize the excess acid in the soil.",
+                            "d": "Add a large amount of compost, as it is acidic and will overpower the soil's original acidity."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Consider an aqueous solution of sodium acetate (CH\u2083COONa). What is the nature of this solution and what is the correct justification for it?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Acidic, because the Na\u207a ion reacts with water (hydrolyzes) to produce H\u207a ions.",
+                            "b": "Neutral, because it is a salt formed from a weak acid (CH\u2083COOH) and a weak base (NaOH).",
+                            "c": "Basic, because the acetate ion (CH\u2083COO\u207b) reacts with water (hydrolyzes) to produce OH\u207b ions.",
+                            "d": "Basic, because all sodium salts are basic in nature."
+                        },
+                        "answer": "c"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subject": "Environmental Sciences",
+        "units": [
+            {
+                "name": "basics",
+                "questions": [
+                    {
+                        "question": "In a terrestrial ecosystem, which statement most accurately describes the flow of energy? Consider the transfer from producers to tertiary consumers.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Energy is cyclical, where decomposers return the total energy back to the producers.",
+                            "b": "The flow of energy is unidirectional, with a progressive loss of energy as heat at each trophic level.",
+                            "c": "Approximately 50% of the energy is conserved and transferred to the next higher trophic level.",
+                            "d": "Tertiary consumers receive the maximum amount of energy as they are at the top of the food chain."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "A water sample taken from an industrial outlet near a river shows a very high Biochemical Oxygen Demand (BOD). What does this directly indicate about the water quality?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The water has a high concentration of dissolved oxygen, making it ideal for aquatic life.",
+                            "b": "The water is heavily polluted with organic matter, which is being decomposed by microorganisms.",
+                            "c": "The water is contaminated with non-biodegradable heavy metals like cadmium and mercury.",
+                            "d": "The water has become highly acidic due to the discharge of industrial acids."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Besides Carbon Dioxide (CO2), another significant greenhouse gas is Methane (CH4). Which of the following human activities is considered a primary source of anthropogenic methane emissions?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Combustion of fossil fuels in thermal power plants.",
+                            "b": "Use of nitrogen-based fertilizers in agriculture.",
+                            "c": "Livestock farming (enteric fermentation) and cultivation of paddy fields.",
+                            "d": "Leakage from air conditioners and refrigeration units."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "While solar energy is a promising renewable resource, its large-scale implementation faces certain limitations. Which of the following is a major practical and technical limitation of photovoltaic (PV) solar power generation?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The manufacturing process of solar panels consumes more energy than they produce in their lifetime.",
+                            "b": "Solar panels can only be installed in hot desert regions and are ineffective in temperate climates.",
+                            "c": "The power generation is intermittent, being dependent on daylight hours and clear weather conditions, thus requiring energy storage solutions.",
+                            "d": "The raw material, silicon, is extremely rare and its mining causes significant air pollution."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Geothermal and Tidal energy are both renewable sources. What is the fundamental principle behind the generation of geothermal energy?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Utilizing the heat generated from the radioactive decay of elements within the Earth's interior.",
+                            "b": "Harnessing the kinetic energy from the rise and fall of ocean water due to the moon's gravitational pull.",
+                            "c": "Converting the potential energy of water stored at a height in large dams.",
+                            "d": "Using the temperature difference between deep and surface ocean water to run a heat engine."
+                        },
+                        "answer": "a"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subject": "Soft skills",
+        "units": [
+            {
+                "name": "Comprehension of Unseen Passage",
+                "questions": [
+                    {
+                        "question": "Read the following passage carefully and answer the questions that follow.\n\nIn today's competitive job market, technical skills alone are no longer sufficient for professional success. While your diploma in engineering or technology provides the foundational knowledge for your field, it is the soft skills that often act as the key differentiator. Soft skills, also known as interpersonal or people skills, include communication, teamwork, problem-solving, and time management. A recent survey conducted by the National Association of Colleges and Employers (NACE) found that employers consistently rank these skills as more important than technical abilities when hiring new graduates.\n\nConsider the example of two fresh diploma holders, Rohan and Sameer, both with excellent academic records. Rohan is technically brilliant but struggles to articulate his ideas during group discussions and often prefers to work alone. Sameer, on the other hand, while equally competent, is also a great communicator who actively listens to his peers and collaborates effectively on projects. When faced with a complex problem, Sameer is more likely to leverage the collective knowledge of his team to find an innovative solution. Consequently, employers often perceive candidates like Sameer as having higher long-term potential. Therefore, it is crucial for diploma students to actively cultivate these skills through participation in group projects, presentations, and extracurricular activities.\n\nWhat is the primary message of the passage?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Technical skills are the most important for getting a job.",
+                            "b": "Soft skills are more crucial for professional success than just technical knowledge.",
+                            "c": "Rohan is a better employee than Sameer.",
+                            "d": "Extracurricular activities are not important for diploma students."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "According to the NACE survey mentioned in the passage, what do employers value most when hiring new graduates?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "High academic scores",
+                            "b": "The reputation of the polytechnic college",
+                            "c": "Skills like communication and teamwork",
+                            "d": "The ability to work alone"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Why is a candidate like Sameer likely to be perceived as having higher long-term potential?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Because he has a better academic record than Rohan.",
+                            "b": "Because he avoids group discussions and focuses on his own work.",
+                            "c": "Because his ability to communicate and collaborate makes him a more effective team member.",
+                            "d": "Because he only possesses soft skills and no technical knowledge."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "In the passage, what does the word \"articulate\" mean?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "To work in a team",
+                            "b": "To solve complex problems",
+                            "c": "To express ideas clearly",
+                            "d": "To have a good academic record"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "How does the passage suggest that diploma students can develop their soft skills?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "By focusing solely on their technical subjects.",
+                            "b": "By avoiding group work to improve individual performance.",
+                            "c": "By memorizing textbook definitions of soft skills.",
+                            "d": "By engaging in group projects, presentations, and extracurricular activities."
+                        },
+                        "answer": "d"
+                    }
+                ]
+            },
+            {
+                "name": "Theory of Communication",
+                "questions": [
+                    {
+                        "question": "A team leader sends a detailed email with instructions for a new task. A team member replies with a 'thumbs-up' emoji but later completes the task incorrectly because he misunderstood a key instruction. In this scenario, which element of the communication process was present but proved to be ineffective?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Encoding",
+                            "b": "Channel",
+                            "c": "Decoding",
+                            "d": "Feedback"
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "During a job interview, a candidate says, 'I work very well under pressure.' However, while saying this, he is tapping his foot rapidly, speaking very quickly, and avoiding direct eye contact with the interviewer. What can be most accurately concluded from this situation?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The verbal message is more trustworthy than the non-verbal cues.",
+                            "b": "The candidate's paralanguage (fast speech) reinforces his verbal statement.",
+                            "c": "The non-verbal cues (kinesics) are contradicting the verbal message, suggesting anxiety.",
+                            "d": "The physical environment (proxemics) is the main barrier to communication."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "A senior software developer from a metropolitan city is explaining a code to a new intern from a rural area. The developer uses a lot of complex technical jargon and modern corporate slang. The intern, despite being skilled, struggles to understand the explanation and hesitates to ask for clarification. What is the primary communication barrier in this context?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Physical Barrier",
+                            "b": "Organisational Barrier",
+                            "c": "Semantic Barrier",
+                            "d": "Technological Barrier"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "In the communication process model, what is the crucial step that the sender performs when they convert their thoughts, ideas, or feelings into a message (words, symbols, or gestures) that can be sent?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Decoding",
+                            "b": "Encoding",
+                            "c": "Transmitting",
+                            "d": "Feedback Loop"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "A manager is discussing a sensitive performance issue with an employee. Instead of sitting behind his large, imposing desk, he chooses to sit next to the employee at a round table. This conscious choice of arrangement and distance to create a more collaborative and less intimidating atmosphere is a deliberate use of which form of non-verbal communication?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Chronemics",
+                            "b": "Haptics",
+                            "c": "Artifacts",
+                            "d": "Proxemics"
+                        },
+                        "answer": "d"
+                    }
+                ]
+            },
+            {
+                "name": "Techniques of Writing",
+                "questions": [
+                    {
+                        "question": "In a formal business letter using the full block format, what component immediately follows the Inside Address?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The Date",
+                            "b": "The Salutation (e.g., Dear Sir/Madam)",
+                            "c": "The Subject Line",
+                            "d": "The Sender's Address"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "A potential customer writes to your company asking for a product catalogue and a price list for bulk purchases. Your response, providing the requested details and encouraging them to place an order, would be classified as which type of business letter?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Letter of Inquiry",
+                            "b": "Order Letter",
+                            "c": "Reply to an Inquiry",
+                            "d": "Adjustment Letter"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "You have received a complaint letter from a customer about a delayed shipment. Your letter back to the customer apologizes for the delay, explains the unforeseen reason, and confirms a new dispatch date. This letter is a classic example of an:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Order Letter",
+                            "b": "Adjustment Letter",
+                            "c": "Inquiry Letter",
+                            "d": "Complaint Letter"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "At the end of a formal business letter, you see the notation 'Encl: 2'. What does this specifically indicate to the recipient?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The letter is the second one in a series of communications.",
+                            "b": "Two people have been sent a copy of this letter.",
+                            "c": "There are two separate documents included in the envelope with the letter.",
+                            "d": "The letter should be replied to within two business days."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "While structuring a professional email, which component serves a similar purpose to the 'Inside Address' and 'Return Address' of a traditional business letter, by automatically providing sender and receiver information?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The email signature block",
+                            "b": "The body of the email",
+                            "c": "The Subject line",
+                            "d": "The email header (To, From, Date fields)"
+                        },
+                        "answer": "d"
+                    }
+                ]
+            },
+            {
+                "name": "Grammar",
+                "questions": [
+                    {
+                        "question": "In the sentence 'Alas! The very old professor spoke quite softly during the long lecture.', what are the respective parts of speech for the words 'Alas', 'softly', and 'long'?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Interjection, Adverb, Adjective",
+                            "b": "Noun, Adjective, Adverb",
+                            "c": "Interjection, Adjective, Preposition",
+                            "d": "Connector, Verb, Noun"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "Choose the correct verb tense to complete the sentence: 'The train ______ the platform just moments before we arrived.'",
+                        "type": "mcq",
+                        "options": {
+                            "a": "is leaving",
+                            "b": "has left",
+                            "c": "had left",
+                            "d": "will leave"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Select the sentence with the correct subject-verb agreement.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The list of necessary items are on the desk.",
+                            "b": "Neither the students nor the teacher were present in the hall.",
+                            "c": "Each of the new employees has to undergo training.",
+                            "d": "The team of experts agrees on most points."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Fill in the blanks with the most appropriate preposition and connector: 'The project must be completed ______ the deadline, ______ it will not be accepted.'",
+                        "type": "mcq",
+                        "options": {
+                            "a": "on, but",
+                            "b": "by, otherwise",
+                            "c": "at, because",
+                            "d": "in, until"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Identify the sentence that uses pronouns correctly.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The dog wagged it's tail excitedly.",
+                            "b": "The committee has submitted its report to the director.",
+                            "c": "The manager asked my colleague and I to stay late.",
+                            "d": "One should always do their best to help others."
+                        },
+                        "answer": "b"
+                    }
+                ]
+            },
+            {
+                "name": "Correction of Incorrect Words and Sentences",
+                "questions": [
+                    {
+                        "question": "Choose the correctly spelled word to fill in the blank: The new hostel can __________ one hundred students.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "acomodate",
+                            "b": "accommodate",
+                            "c": "accomodate",
+                            "d": "acommodate"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Choose the grammatically correct sentence from the following options.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "One of my friends are coming to the party tonight.",
+                            "b": "One of my friends is coming to the party tonight.",
+                            "c": "One of my friend are coming to the party tonight.",
+                            "d": "One of my friends be coming to the party tonight."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "The project manager acts as a __________ between the development team and the client.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "liason",
+                            "b": "laison",
+                            "c": "liaison",
+                            "d": "liasion"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Select the sentence that is grammatically and structurally correct.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Although he studied hard for the exam he did not score well.",
+                            "b": "Although, he studied hard for the exam, he did not score well.",
+                            "c": "Although he studied hard for the exam, he did not score well.",
+                            "d": "He did not score well, although he studied hard for the exam."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Choose the correct sentence from the options below.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The manager gave the detailed report to Sheetal and I.",
+                            "b": "The manager gave the detailed report to I and Sheetal.",
+                            "c": "The manager gave the detailed report to Sheetal and myself.",
+                            "d": "The manager gave the detailed report to Sheetal and me."
+                        },
+                        "answer": "d"
+                    }
+                ]
+            }
+        ]
+    }
+]

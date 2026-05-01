@@ -1,0 +1,927 @@
+[
+    {
+        "subject": "computer practices",
+        "units": [
+            {
+                "name": "basics",
+                "questions": [
+                    {
+                        "question": "During the boot-up process of a computer, what is the primary function of the BIOS (Basic Input/Output System) before the operating system is loaded?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "To run application software like web browsers.",
+                            "b": "To manage the computer's network connection.",
+                            "c": "To perform the Power-On Self-Test (POST) and initialize hardware.",
+                            "d": "To directly load user files from the hard disk into RAM."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "In an HTML document, which tag is used to create a hyperlink to another webpage, and which attribute specifies the destination URL?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Tag: <link>, Attribute: src",
+                            "b": "Tag: <a>, Attribute: href",
+                            "c": "Tag: <hyperlink>, Attribute: url",
+                            "d": "Tag: <p>, Attribute: link"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "You are creating a formal report in MS-Word and need to ensure that the company logo and page number appear in the exact same position on the top of every page. Which feature should you use?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Manually copy and paste the logo and page number on each page.",
+                            "b": "Use the 'Find and Replace' feature.",
+                            "c": "Insert a Text Box on each page.",
+                            "d": "Edit the document's Header."
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "In MS-Excel, you have a value of 1000 in cell A1, which represents a fixed commission rate. You want to calculate the commission for sales figures in cells B2, B3, and B4 by multiplying each by the rate in A1. Which formula should you write in cell C2 and then drag down to C4 to ensure it always refers to cell A1?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "=B2*A1",
+                            "b": "=B2*$A$1",
+                            "c": "=B2*A",
+                            "d": "=$B$2*A1"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "In MS-PowerPoint, you want to apply a consistent design, including fonts, colors, and logos, to all slides in your presentation, including any new slides you add. What is the most efficient way to achieve this?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Design the first slide and then use 'Duplicate Slide' for all subsequent slides.",
+                            "b": "Apply a 'Theme' from the Design tab.",
+                            "c": "Manually format each slide individually to ensure they match.",
+                            "d": "Use the 'Format Painter' tool to copy formatting from one slide to another."
+                        },
+                        "answer": "b"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subject": "physics",
+        "units": [
+            {
+                "name": "units and measurements",
+                "questions": [
+                    {
+                        "question": "The universal gravitational constant 'G' has the dimensional formula M\u207b\u00b9L\u00b3T\u207b\u00b2. What is its unit in the SI system?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "N m\u00b2 kg\u207b\u00b2",
+                            "b": "kg m s\u207b\u00b2",
+                            "c": "N m\u207b\u00b2 kg\u00b2",
+                            "d": "kg m\u00b3 s\u207b\u00b9"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "The value of force is 100 N. If the unit of mass is doubled, the unit of length is halved and the unit of time is also doubled, what is the value of this force in the new system of units?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "100 new units",
+                            "b": "25 new units",
+                            "c": "400 new units",
+                            "d": "12.5 new units"
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "A physical quantity P is related to four observables a, b, c, and d as P = (a\u00b3b\u00b2) / (\u221ac d). The percentage errors of measurement in a, b, c, and d are 1%, 3%, 4%, and 2% respectively. What is the percentage error in the quantity P?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "12%",
+                            "b": "13%",
+                            "c": "10%",
+                            "d": "8%"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "The resistance of a wire is given by R = V/I. The voltage is V = (100 \u00b1 5) V and the current is I = (10 \u00b1 0.2) A. The percentage error in the measurement of resistance is:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "5%",
+                            "b": "2%",
+                            "c": "7%",
+                            "d": "3%"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "In a Vernier caliper, 10 divisions on the Vernier scale coincide with 9 divisions on the main scale. One main scale division is 1 mm. While measuring the diameter of a sphere, the main scale reading is 4.2 cm and the 6th division of the Vernier scale coincides with a main scale division. If the instrument has a positive zero error of 0.04 cm, what is the correct diameter of the sphere?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "4.26 cm",
+                            "b": "4.22 cm",
+                            "c": "4.30 cm",
+                            "d": "4.20 cm"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "A micrometer screw gauge has a pitch of 1 mm and 100 divisions on the circular scale. When measuring the diameter of a wire, the main scale reading is 2 mm and the 45th division on the circular scale coincides with the reference line. It is observed that when the jaws are closed, the zero of the circular scale is 5 divisions below the reference line. The correct diameter of the wire is:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "2.45 mm",
+                            "b": "2.50 mm",
+                            "c": "2.40 mm",
+                            "d": "2.05 mm"
+                        },
+                        "answer": "b"
+                    }
+                ]
+            },
+            {
+                "name": "classical mechanics",
+                "questions": [
+                    {
+                        "question": "A cricketer catches a ball of mass 150 g moving at a speed of 20 m/s. If the catching process is completed in 0.1 s, what is the magnitude of the average force exerted by the ball on the cricketer's hands?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "3 N",
+                            "b": "30 N",
+                            "c": "300 N",
+                            "d": "0.3 N"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "An object is moving in a circle of radius 'r' with a constant angular velocity '\u03c9'. If the radius of the circle is doubled to '2r' while keeping the angular velocity constant, the new centripetal force will be:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Half of the original force",
+                            "b": "The same as the original force",
+                            "c": "Double the original force",
+                            "d": "Four times the original force"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "A body of mass 10 kg, initially at rest on a frictionless surface, is subjected to a constant horizontal force of 20 N. What is the kinetic energy of the body after it has moved a distance of 10 meters?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "100 J",
+                            "b": "200 J",
+                            "c": "1000 J",
+                            "d": "2000 J"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "A car starts from rest and accelerates uniformly at 2 m/s\u00b2 for 5 seconds. It then travels at a constant velocity for the next 10 seconds and is finally brought to rest by a uniform retardation of 4 m/s\u00b2. Calculate the total distance travelled by the car.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "125.0 m",
+                            "b": "137.5 m",
+                            "c": "150.0 m",
+                            "d": "112.5 m"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "A pump is required to lift 600 kg of water per minute from a well 25 m deep and eject it with a speed of 50 m/s. What is the power required to perform this task? (Take g = 10 m/s\u00b2)",
+                        "type": "mcq",
+                        "options": {
+                            "a": "12.5 kW",
+                            "b": "15 kW",
+                            "c": "17.5 kW",
+                            "d": "20 kW"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "According to Newton's second law of motion, force is directly proportional to the rate of change of linear momentum. The constant of proportionality is unity (k=1) in which system of units?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Only in the S.I. system",
+                            "b": "Only in the C.G.S. system",
+                            "c": "In both S.I. and C.G.S. systems",
+                            "d": "In the F.P.S. system only"
+                        },
+                        "answer": "c"
+                    }
+                ]
+            },
+            {
+                "name": "electricity",
+                "questions": [
+                    {
+                        "question": "Two identical point charges are placed a certain distance apart in air, and the electrostatic force between them is F. If the medium is replaced by a liquid with a dielectric constant K=5, and the distance between the charges is reduced to half of the original distance, what will be the new electrostatic force between them?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "F / 5",
+                            "b": "4F / 5",
+                            "c": "5F / 4",
+                            "d": "20F"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "A copper wire of length 1.57 meters and radius 0.5 mm is connected across a 3.4 V battery. If the resistivity (\u03c1) of copper is 1.7 x 10\u207b\u2078 \u03a9m, calculate the electric current flowing through the wire. (Use \u03c0 \u2248 3.14)",
+                        "type": "mcq",
+                        "options": {
+                            "a": "0.5 A",
+                            "b": "5 A",
+                            "c": "50 A",
+                            "d": "100 A"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "In the given circuit arrangement, three resistors R1 = 10 \u03a9, R2 = 10 \u03a9, and R3 = 5 \u03a9 are connected. R1 and R2 are connected in parallel, and this combination is connected in series with R3. What is the equivalent resistance of the network?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "25 \u03a9",
+                            "b": "10 \u03a9",
+                            "c": "7.5 \u03a9",
+                            "d": "5 \u03a9"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "What is the work done in moving a test charge of +2 \u00b5C from a point at a potential of 100 V to another point at a potential of 40 V?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "1.2 x 10\u207b\u2074 J",
+                            "b": "-1.2 x 10\u207b\u2074 J",
+                            "c": "2.8 x 10\u207b\u2074 J",
+                            "d": "0 J"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "A parallel plate capacitor with air as the dielectric has a capacitance of 8 pF. What will be the capacitance if the distance between the plates is reduced by half, and the space between them is filled with a substance of dielectric constant K=6?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "24 pF",
+                            "b": "48 pF",
+                            "c": "96 pF",
+                            "d": "1.33 pF"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Two capacitors C1=2 \u00b5F and C2=4 \u00b5F are connected in series, and this combination is connected in parallel with a third capacitor C3=2 \u00b5F. If this entire network is connected to a 10 V supply, what is the total charge stored in the network?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "8 \u00b5C",
+                            "b": "13.3 \u00b5C",
+                            "c": "33.3 \u00b5C",
+                            "d": "80 \u00b5C"
+                        },
+                        "answer": "c"
+                    }
+                ]
+            },
+            {
+                "name": "heat and thermometry",
+                "questions": [
+                    {
+                        "question": "A healthy person's body temperature is 98.6\u00b0F. What are the corresponding temperatures on the Celsius and Kelvin scales, respectively?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "37\u00b0C, 310.15 K",
+                            "b": "37\u00b0C, 236.15 K",
+                            "c": "32\u00b0C, 305.15 K",
+                            "d": "35.9\u00b0C, 309.05 K"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "When water is heated in a metal vessel placed on a stove, heat travels from the flame to the bottom of the vessel, through the metal, and then within the water. What is the primary mode of heat transfer within the bulk of the water?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Conduction",
+                            "b": "Convection",
+                            "c": "Radiation",
+                            "d": "Both Conduction and Radiation equally"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "If 8400 Joules of heat is supplied to raise the temperature of 500g of a liquid from 30\u00b0C to 40\u00b0C, what is the specific heat capacity of the liquid?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "1680 J/kg\u00b0C",
+                            "b": "1.68 J/kg\u00b0C",
+                            "c": "16800 J/kg\u00b0C",
+                            "d": "4200 J/kg\u00b0C"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "The formula for linear thermal expansion is \u0394L = \u03b1L\u2080\u0394T, where \u0394L is the change in length, L\u2080 is the original length, and \u0394T is the change in temperature. What is the S.I. unit for the coefficient of linear thermal expansion (\u03b1)?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "m/K",
+                            "b": "K\u207b\u00b9",
+                            "c": "J/K",
+                            "d": "m\u00b7K"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "The rate of heat transfer through a material by conduction depends on its coefficient of thermal conductivity (k). Which of the following materials generally has the highest value of k?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Wood",
+                            "b": "Glass",
+                            "c": "Water",
+                            "d": "Silver"
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "At what temperature is the reading on the Fahrenheit scale exactly double the reading on the Celsius scale?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "80\u00b0C",
+                            "b": "-12.3\u00b0C",
+                            "c": "160\u00b0C",
+                            "d": "320\u00b0C"
+                        },
+                        "answer": "c"
+                    }
+                ]
+            },
+            {
+                "name": "waves and acoustics",
+                "questions": [
+                    {
+                        "question": "The equation of a progressive wave is given by y(x, t) = 0.05 sin(100\u03c0t - 2\u03c0x), where x and y are in meters and t is in seconds. Calculate the wavelength (\u03bb) and frequency (f) of the wave.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "\u03bb = 1.0 m, f = 50 Hz",
+                            "b": "\u03bb = 2.0 m, f = 100 Hz",
+                            "c": "\u03bb = 0.5 m, f = 50 Hz",
+                            "d": "\u03bb = 1.0 m, f = 100 Hz"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "For total internal reflection to occur when light travels from a medium with refractive index n1 to a medium with refractive index n2, two conditions must be met. Which of the following correctly states these conditions?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "n1 > n2, and the angle of incidence must be less than the critical angle.",
+                            "b": "n2 > n1, and the angle of incidence must be greater than the critical angle.",
+                            "c": "n1 > n2, and the angle of incidence must be greater than the critical angle.",
+                            "d": "n2 > n1, and the angle of incidence must be equal to the critical angle."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "According to Sabine's formula for reverberation time (T = 0.161V/A), if the volume (V) of a concert hall is doubled and the total absorption (A) is also doubled, the new reverberation time T' will be:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Twice the original reverberation time (2T)",
+                            "b": "Half the original reverberation time (T/2)",
+                            "c": "Four times the original reverberation time (4T)",
+                            "d": "The same as the original reverberation time (T)"
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "Which of the following statements accurately distinguishes between a stationary wave and a progressive wave?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "In a stationary wave, energy is continuously transferred in one direction, while in a progressive wave, energy is confined between nodes.",
+                            "b": "All particles in a stationary wave vibrate with the same amplitude, whereas in a progressive wave, amplitude varies.",
+                            "c": "In a progressive wave, all particles vibrate in the same phase, while in a stationary wave, the phase varies continuously.",
+                            "d": "A stationary wave has points of zero displacement called nodes, while a progressive wave does not have such permanent points."
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "An ultrasonic scanner used for medical imaging operates at a frequency of 2 MHz. If the speed of sound in human tissue is approximately 1540 m/s, what is the wavelength of these ultrasonic waves inside the tissue?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "0.77 mm",
+                            "b": "1.30 mm",
+                            "c": "7.70 cm",
+                            "d": "0.077 m"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "LASER light is highly valued in applications like optical fiber communication and precision cutting primarily due to its unique properties. Which property of LASER is most crucial for its ability to travel long distances without significant spreading?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "High Intensity",
+                            "b": "Monochromaticity",
+                            "c": "Coherence",
+                            "d": "High Directionality (Low Divergence)"
+                        },
+                        "answer": "d"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subject": "chemistry",
+        "units": [
+            {
+                "name": "chemical equations and reactions",
+                "questions": [
+                    {
+                        "question": "When the chemical equation for the reaction between aqueous lead(II) nitrate and aqueous potassium iodide is balanced using the smallest whole-number coefficients, what is the sum of the stoichiometric coefficients of the reactants only? The products formed are solid lead(II) iodide and aqueous potassium nitrate.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "2",
+                            "b": "3",
+                            "c": "4",
+                            "d": "5"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "An aqueous solution of barium chloride is mixed with an aqueous solution of sodium sulphate. A white, insoluble substance is immediately formed. The chemical equation for this reaction is: BaCl\u2082(aq) + Na\u2082SO\u2084(aq) \u2192 BaSO\u2084(s) + 2NaCl(aq). How can this reaction be best classified?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Displacement reaction and Neutralization reaction",
+                            "b": "Combination reaction and Precipitation reaction",
+                            "c": "Decomposition reaction and Endothermic reaction",
+                            "d": "Double displacement reaction and Precipitation reaction"
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "A small amount of quicklime (calcium oxide) is added to a beaker of water. A hissing sound is produced and the solution becomes very hot. This solution is then applied to walls for whitewashing, which after 2-3 days gives a shiny finish. Which of the following statements correctly explains these observations?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "It is an endothermic combination reaction forming calcium hydroxide, which evaporates to give a shiny finish.",
+                            "b": "It is an exothermic decomposition reaction where quicklime breaks down in water.",
+                            "c": "It is an exothermic combination reaction forming slaked lime, which then reacts with atmospheric carbon dioxide to form a shiny layer of calcium carbonate.",
+                            "d": "It is a displacement reaction where calcium displaces hydrogen from water, and the resulting compound is used for whitewashing."
+                        },
+                        "answer": "c"
+                    }
+                ]
+            },
+            {
+                "name": "metals and non-metals",
+                "questions": [
+                    {
+                        "question": "Consider the following elements: Graphite (an allotrope of Carbon), Bromine, Mercury, and Sodium. Which statement accurately describes an exceptional physical property of one of these elements compared to the general properties of its group (metal or non-metal)?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Graphite is a non-metal, yet it is a good conductor of electricity.",
+                            "b": "Sodium is a metal, yet it has a very high density and is extremely hard.",
+                            "c": "Mercury is a non-metal that is liquid at room temperature.",
+                            "d": "Bromine is a non-metal, yet it is a lustrous solid at room temperature."
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "A student adds equal amounts of dilute hydrochloric acid to four separate test tubes containing small, equal-sized pieces of Zinc, Iron, Copper, and Magnesium at room temperature. Which option correctly predicts the observation regarding the rate of hydrogen gas evolution based on the reactivity series?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The rate of effervescence would be highest in Magnesium, followed by Zinc, then Iron, with no reaction in Copper.",
+                            "b": "The rate of effervescence would be highest in Zinc, followed by Magnesium, then Iron, with no reaction in Copper.",
+                            "c": "All four metals will react at the same rate to produce hydrogen gas as the acid concentration is the same.",
+                            "d": "Only Copper will show a vigorous reaction because it is a coinage metal, while the others will not react."
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "Rust, the reddish-brown coating formed on iron, is chemically hydrated iron(III) oxide (Fe\u2082O\u2083\u00b7nH\u2082O). This is a product of an electrochemical reaction and is ionic in nature. Which set of properties is most characteristic of such an ionic compound?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Low melting point, brittle, and soluble in organic solvents like kerosene.",
+                            "b": "High melting point, hard, and conducts electricity strongly in the solid state.",
+                            "c": "Volatile in nature, soft, and does not conduct electricity in any state.",
+                            "d": "High melting point, brittle, and conducts electricity only when in a molten state or dissolved in water."
+                        },
+                        "answer": "d"
+                    }
+                ]
+            },
+            {
+                "name": "acids, bases and salts",
+                "questions": [
+                    {
+                        "question": "A student adds a small amount of black copper(II) oxide (CuO) to a beaker containing dilute hydrochloric acid (HCl). A noticeable color change is observed as the reaction proceeds. Which of the following statements correctly describes the outcome of this reaction?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The solution turns blue-green due to the formation of copper(II) chloride, and this demonstrates the basic nature of metallic oxides.",
+                            "b": "The solution remains colorless as copper is less reactive than hydrogen, and this demonstrates the amphoteric nature of metallic oxides.",
+                            "c": "A brown precipitate of copper is formed, and this shows that metallic oxides are acidic in nature.",
+                            "d": "The solution turns yellow-brown due to the formation of copper(III) chloride, and this demonstrates the neutral nature of metallic oxides."
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "Why does dry HCl gas not change the color of dry blue litmus paper, whereas an aqueous solution of HCl does?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Dry HCl gas is covalent, while aqueous HCl is ionic, and only ionic compounds can act as acids.",
+                            "b": "In the absence of water, HCl gas does not dissociate into H\u207a and Cl\u207b ions, which are responsible for its acidic properties.",
+                            "c": "The moisture from the air is sufficient to ionize the HCl gas, but the litmus paper is too dry to react.",
+                            "d": "Dry HCl gas is a neutral compound, and it only becomes acidic when it is dissolved in water."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Tooth decay starts when the pH of the mouth falls below a certain value. This is because the acid produced by bacteria acting on food particles attacks the tooth enamel, which is primarily made of calcium phosphate. What is the approximate pH value at which tooth decay begins, and why is toothpaste, which is generally basic, recommended?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "pH below 5.5; toothpaste neutralizes the excess acid and prevents further decay.",
+                            "b": "pH above 7.0; toothpaste provides calcium ions to remineralize the enamel.",
+                            "c": "pH below 6.5; toothpaste acts as an abrasive to remove the bacteria physically.",
+                            "d": "pH of 7.0; toothpaste contains fluoride which directly kills all the bacteria in the mouth."
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "An aqueous solution of ammonium chloride (NH\u2084Cl) is tested with litmus paper. What change would be observed and what is the correct explanation for this observation?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The solution will be neutral (pH \u2248 7) because it is a salt of a strong acid and a strong base.",
+                            "b": "The solution will be alkaline (pH > 7) and turn red litmus blue, as the chloride ion (Cl\u207b) hydrolyzes to produce OH\u207b ions.",
+                            "c": "The solution will be acidic (pH < 7) and turn blue litmus red, as the ammonium ion (NH\u2084\u207a) hydrolyzes to produce H\u2083O\u207a ions.",
+                            "d": "The solution will be acidic (pH < 7) because ammonium chloride is an inherently acidic compound, irrespective of its interaction with water."
+                        },
+                        "answer": "c"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subject": "Environmental Sciences",
+        "units": [
+            {
+                "name": "basics",
+                "questions": [
+                    {
+                        "question": "In a terrestrial food chain, if the total energy available at the producer level (e.g., grass) is 10,000 kJ, approximately how much energy would be transferred to the secondary consumer level (e.g., a fox that eats a rabbit)?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "1000 kJ",
+                            "b": "100 kJ",
+                            "c": "10 kJ",
+                            "d": "10,000 kJ"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "The presence of which of the following microorganisms in a river is considered a reliable indicator of contamination by sewage or faecal matter, often leading to a condition of low dissolved oxygen?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Trout fish",
+                            "b": "Escherichia coli",
+                            "c": "Mayfly nymph",
+                            "d": "Diatoms"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Besides Carbon Dioxide (CO2), which of the following is a significant greenhouse gas, over 25 times more potent in trapping heat over a 100-year period, primarily released from agricultural activities like livestock farming and paddy cultivation?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Sulphur Dioxide (SO2)",
+                            "b": "Methane (CH4)",
+                            "c": "Ozone (O3)",
+                            "d": "Carbon Monoxide (CO)"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "While solar energy is a clean source of power generation, what is a significant environmental limitation associated with the large-scale implementation of solar farms using photovoltaic (PV) panels?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "They release large amounts of greenhouse gases during operation.",
+                            "b": "They require a constant supply of water to cool the panels.",
+                            "c": "The manufacturing of PV cells is energy-intensive and requires mining of raw materials like silicon.",
+                            "d": "They are a major source of noise pollution affecting nearby communities."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "The feasibility and economic viability of generating electricity from geothermal energy are highest in regions which have:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Large, fast-flowing rivers and high rainfall.",
+                            "b": "Strong and consistent coastal wind patterns.",
+                            "c": "High solar insolation and clear skies throughout the year.",
+                            "d": "Significant tectonic activity, such as volcanic zones or along plate boundaries."
+                        },
+                        "answer": "d"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subject": "Soft skills",
+        "units": [
+            {
+                "name": "Comprehension of Unseen Passage",
+                "questions": [
+                    {
+                        "question": "Read the passage carefully and answer the questions that follow.\n\nThe landscape of the modern workplace is in a constant state of flux, driven primarily by rapid technological advancements and shifting economic paradigms. In this dynamic environment, the concept of lifelong learning, or continuous learning, has transformed from a mere personal development goal into a critical necessity for career survival and growth. Gone are the days when a diploma or a degree was a one-time ticket to a stable, long-term career. Today, the skills that are in high demand can become obsolete in a matter of years, making proactive upskilling and reskilling not just advantageous, but essential.\n\nThis shift places a significant responsibility on the individual. While many organizations offer training programs, the onus is increasingly on employees to take initiative in their own professional development. This involves identifying emerging trends in their field, seeking out new knowledge through online courses, workshops, or certifications, and actively applying these new skills in their roles. It's a mindset of perpetual curiosity and adaptability. Those who embrace this mindset are not only more resilient to industry changes but are also better positioned for leadership roles, as they demonstrate a commitment to growth and an ability to navigate uncertainty.\n\nHowever, the path of continuous learning is not without its challenges. The primary obstacle for many is time management. Juggling work responsibilities, personal commitments, and educational pursuits requires discipline and effective planning. Another challenge is information overload; with a vast sea of online resources available, it can be difficult to discern which courses or skills are truly valuable. Therefore, a strategic approach is crucial. Individuals must first assess their current skill set, identify gaps relative to their career goals, and then create a targeted learning plan. This strategic self-investment is arguably the most valuable investment one can make in their professional journey.\n\nWhat is the central theme of the passage?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Companies are no longer responsible for employee training.",
+                            "b": "Continuous learning is essential for professional survival and success in today's world.",
+                            "c": "Technology is the biggest threat to job security.",
+                            "d": "Time management is the only skill needed for career growth."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "According to the passage, what is the most significant change from the past to the present-day workplace?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Employees are now less curious and adaptable.",
+                            "b": "Companies offer more training programs than before.",
+                            "c": "A single educational qualification is no longer sufficient for a lifelong career.",
+                            "d": "There are fewer online resources available for learning."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "What does the passage suggest is the first step in a 'strategic approach' to learning?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Enrolling in as many online courses as possible.",
+                            "b": "Asking a manager for a promotion.",
+                            "c": "Creating a detailed and targeted learning plan.",
+                            "d": "Evaluating one's existing skills and identifying what is missing for future goals."
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "Based on the passage, an employee who demonstrates a 'commitment to growth' is likely to be:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Less resilient to industry changes.",
+                            "b": "Considered a better candidate for leadership positions.",
+                            "c": "Overwhelmed by information overload.",
+                            "d": "Focused only on their current job responsibilities."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "In the context of the passage, what does the word 'obsolete' mean?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Highly valuable and in-demand.",
+                            "b": "Difficult to understand.",
+                            "c": "Related to a specific company.",
+                            "d": "Outdated and no longer useful."
+                        },
+                        "answer": "d"
+                    }
+                ]
+            },
+            {
+                "name": "Theory of Communication",
+                "questions": [
+                    {
+                        "question": "A project manager sends a detailed email to her team outlining a new project plan. A team member replies asking for clarification on the deadline for the first phase. In the communication process model, this team member's question is a crucial example of:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Encoding by the receiver",
+                            "b": "Noise in the communication channel",
+                            "c": "The initial message from the sender",
+                            "d": "Feedback, which helps ensure the message is decoded correctly"
+                        },
+                        "answer": "d"
+                    },
+                    {
+                        "question": "During a job interview, a candidate says, 'I am very confident about my skills,' but he is fidgeting, avoiding eye contact, and speaking in a shaky voice. An experienced interviewer is most likely to conclude that:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "The candidate's verbal message is more credible than his non-verbal cues.",
+                            "b": "There is a contradiction, and the non-verbal cues likely reveal the candidate's true state of nervousness.",
+                            "c": "The environment (interview room) is a physical barrier to effective communication.",
+                            "d": "The candidate is using a communication style appropriate for a formal setting."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "An experienced senior accountant is explaining a new tax regulation to a group of newly hired marketing trainees. He uses complex financial jargon like 'amortisation,' 'depreciation schedules,' and 'fiscal consolidation.' Most trainees are unable to understand the core message. This failure in communication is primarily due to a:",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Physical barrier",
+                            "b": "Semantic barrier",
+                            "c": "Psychological barrier",
+                            "d": "Organisational barrier"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Which of the following components of the communication process involves a sender choosing specific words, gestures, or symbols to convey a message?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Decoding",
+                            "b": "Channel",
+                            "c": "Encoding",
+                            "d": "Feedback"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "In non-verbal communication, the term 'Kinesics' refers to the study of communication through body language. Which of the following is NOT an example of Kinesics?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Smiling at a colleague to show friendliness.",
+                            "b": "Nodding your head to signify agreement.",
+                            "c": "Speaking loudly to emphasize an important point.",
+                            "d": "Maintaining an open posture during a discussion."
+                        },
+                        "answer": "c"
+                    }
+                ]
+            },
+            {
+                "name": "Techniques of Writing",
+                "questions": [
+                    {
+                        "question": "In a standard formal business letter, where is the 'Encl.' or 'Enclosure' notation correctly placed to indicate that additional documents are included?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Two lines below the signature block or typed name.",
+                            "b": "In the top right corner, directly below the date.",
+                            "c": "Immediately above the salutation (e.g., Dear Sir/Madam).",
+                            "d": "As the very last sentence of the main body of the letter."
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "A customer, Mr. Sharma, has written to your company complaining that the mixer-grinder he purchased last week is not working. As the customer service manager, you are writing back to offer a free replacement. What is this response letter called?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Letter of Reply",
+                            "b": "Letter of Inquiry",
+                            "c": "Letter of Adjustment",
+                            "d": "Letter of Order"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "In the context of a business letter or email, what does the abbreviation 'c.c.' traditionally stand for?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Company Copy",
+                            "b": "Carbon Copy",
+                            "c": "Confidential Correspondence",
+                            "d": "Certified Copy"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "When composing a professional email, which field should you use to add a recipient whose email address you want to keep hidden from all other recipients, including those in the 'To' and 'Cc' fields?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "To",
+                            "b": "Cc (Carbon Copy)",
+                            "c": "Bcc (Blind Carbon Copy)",
+                            "d": "Subject"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "M/s Gupta Traders writes a letter to a wholesaler requesting their latest product catalogue and a detailed price list for bulk purchases, mentioning they are considering a large purchase for the upcoming festival season. What is the most accurate classification for this type of letter?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "An Order Letter",
+                            "b": "A Letter of Inquiry",
+                            "c": "An Adjustment Letter",
+                            "d": "A Sales Letter"
+                        },
+                        "answer": "b"
+                    }
+                ]
+            },
+            {
+                "name": "Grammar",
+                "questions": [
+                    {
+                        "question": "Identify the part of speech of the underlined word in the following sentence: 'The manager spoke to him *briefly* about the project's deadline.'",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Adjective",
+                            "b": "Noun",
+                            "c": "Adverb",
+                            "d": "Preposition"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Choose the correct form of the verb to complete the sentence: 'By the time we reached the cinema hall, the movie ______.'",
+                        "type": "mcq",
+                        "options": {
+                            "a": "started",
+                            "b": "had started",
+                            "c": "was starting",
+                            "d": "starts"
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Select the verb that correctly agrees with the subject: 'Neither the team leader nor the members ______ satisfied with the final outcome.'",
+                        "type": "mcq",
+                        "options": {
+                            "a": "was",
+                            "b": "has been",
+                            "c": "were",
+                            "d": "is"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Fill in the blank with the most appropriate preposition: 'Due to the heavy rain, the match was called ______.'",
+                        "type": "mcq",
+                        "options": {
+                            "a": "off",
+                            "b": "out",
+                            "c": "up",
+                            "d": "in"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "Choose the correct connector to join the two clauses: 'He did not prepare well for the interview, ______ he managed to get the job.'",
+                        "type": "mcq",
+                        "options": {
+                            "a": "because",
+                            "b": "therefore",
+                            "c": "so",
+                            "d": "yet"
+                        },
+                        "answer": "d"
+                    }
+                ]
+            },
+            {
+                "name": "Correction of Incorrect Words and Sentences",
+                "questions": [
+                    {
+                        "question": "Choose the correctly spelled word.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Accomodation",
+                            "b": "Acommodation",
+                            "c": "Accommodation",
+                            "d": "Accomodattion"
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "Identify the grammatically correct sentence.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Neither the manager nor the employees was present for the meeting.",
+                            "b": "Neither the manager nor the employees were present for the meeting.",
+                            "c": "Neither the manager nor the employees is present for the meeting.",
+                            "d": "Neither the manager nor the employees are present for the meeting."
+                        },
+                        "answer": "b"
+                    },
+                    {
+                        "question": "Which of the following words is spelled correctly?",
+                        "type": "mcq",
+                        "options": {
+                            "a": "Millennium",
+                            "b": "Milennium",
+                            "c": "Millenium",
+                            "d": "Milenniumm"
+                        },
+                        "answer": "a"
+                    },
+                    {
+                        "question": "Select the sentence that is structurally and grammatically correct.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "He has been studying in this college since three years.",
+                            "b": "He is studying in this college for three years.",
+                            "c": "He has been studying in this college for three years.",
+                            "d": "He was studying in this college since three years."
+                        },
+                        "answer": "c"
+                    },
+                    {
+                        "question": "From the options given, choose the correct sentence.",
+                        "type": "mcq",
+                        "options": {
+                            "a": "One of my friend are an engineer.",
+                            "b": "One of my friends is an engineer.",
+                            "c": "One of my friend is an engineer.",
+                            "d": "One of my friends are an engineer."
+                        },
+                        "answer": "b"
+                    }
+                ]
+            }
+        ]
+    }
+]
