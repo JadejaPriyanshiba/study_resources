@@ -1,0 +1,1341 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exam Simulator</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+            background: #f8f9fa;
+        }
+
+        .q {
+            padding: 15px;
+            border: 1px solid #ddd;
+            margin-bottom: 12px;
+            border-radius: 10px;
+            background: white;
+            transition: 0.3s;
+        }
+
+        .q:hover {
+            box-shadow: 0 0 10px rgba(0,0,0,0.08);
+        }
+
+        .option {
+            margin: 6px 0;
+            padding: 4px;
+            border-radius: 5px;
+        }
+
+        .submit {
+            padding: 12px 25px;
+            background: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 6px;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Exam Paper</h2>
+
+<div id="quiz">
+
+    <div class="q">
+        <p><b>Q1. Which of the following pairs of physical quantities has the same dimensional formula?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q0" value="a">
+                a) Impulse and Momentum
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q0" value="b">
+                b) Work and Power
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q0" value="c">
+                c) Force and Pressure
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q0" value="d">
+                d) Angular Momentum and Torque
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q0" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q2. The Young's Modulus of steel is 2.0 x 10^11 N/m². What is its value in the CGS system (dyne/cm²)?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q1" value="a">
+                a) 2.0 x 10^10 dyne/cm²
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q1" value="b">
+                b) 2.0 x 10^12 dyne/cm²
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q1" value="c">
+                c) 2.0 x 10^9 dyne/cm²
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q1" value="d">
+                d) 2.0 x 10^6 dyne/cm²
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q1" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q3. The resistance R is calculated using the formula R = V/I. If the percentage error in the measurement of voltage V is 3% and in the measurement of current I is 2%, what is the maximum percentage error in the calculated value of R?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q2" value="a">
+                a) 1.0%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q2" value="b">
+                b) 1.5%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q2" value="c">
+                c) 5.0%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q2" value="d">
+                d) 6.0%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q2" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q4. In an experiment, the refractive index of glass was observed to be 1.45, 1.56, 1.54, 1.44, 1.53 and 1.50. Calculate the percentage error in the measurement.</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q3" value="a">
+                a) 0.33%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q3" value="b">
+                b) 2.92%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q3" value="c">
+                c) 3.33%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q3" value="d">
+                d) 4.15%
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q3" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q5. While measuring the diameter of a cylinder with a Vernier caliper (least count = 0.01 cm), the Main Scale Reading (MSR) is 3.2 cm and the 4th division of the Vernier scale coincides with a main scale division. If the instrument has a positive zero error of +0.03 cm, what is the correct diameter of the cylinder?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q4" value="a">
+                a) 3.24 cm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q4" value="b">
+                b) 3.27 cm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q4" value="c">
+                c) 3.21 cm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q4" value="d">
+                d) 3.17 cm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q4" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q6. A micrometer screw gauge has a pitch of 0.5 mm and 50 divisions on its circular scale. When measuring the diameter of a wire, the main scale reads 2.5 mm and the 20th division on the circular scale is on the reference line. The instrument has a negative zero error where the 45th division coincides with the reference line when the jaws are closed. What is the correct diameter?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q5" value="a">
+                a) 2.70 mm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q5" value="b">
+                b) 2.65 mm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q5" value="c">
+                c) 2.75 mm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q5" value="d">
+                d) 2.52 mm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q5" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q7. A cricket ball of mass 150 g is moving with a velocity of 20 m/s. A batsman hits it and the ball returns back along the same path with a velocity of 40 m/s. If the bat was in contact with the ball for 0.01 seconds, what is the average force exerted by the bat on the ball?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q6" value="a">
+                a) 300 N
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q6" value="b">
+                b) 600 N
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q6" value="c">
+                c) 900 N
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q6" value="d">
+                d) 1200 N
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q6" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q8. A body of mass 0.5 kg is tied to a string of length 1 m and is whirled in a horizontal circle at a constant rate of 120 revolutions per minute (RPM). What is the tension in the string?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q7" value="a">
+                a) 2π² N
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q7" value="b">
+                b) 4π N
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q7" value="c">
+                c) 8π² N
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q7" value="d">
+                d) 16π N
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q7" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q9. A block of mass 2 kg starts from rest and slides down a frictionless inclined plane from a height of 5 meters. What is its speed at the bottom of the incline? (Assume acceleration due to gravity, g = 10 m/s²)</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q8" value="a">
+                a) 5 m/s
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q8" value="b">
+                b) 10 m/s
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q8" value="c">
+                c) 14.1 m/s
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q8" value="d">
+                d) 20 m/s
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q8" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q10. A car's engine provides a forward thrust, while air resistance and friction provide a backward drag. For the car to move at a constant velocity on a level road, which of the following statements must be true according to Newton's laws?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q9" value="a">
+                a) The forward thrust must be greater than the backward drag.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q9" value="b">
+                b) The backward drag must be greater than the forward thrust.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q9" value="c">
+                c) The forward thrust must be exactly equal to the backward drag.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q9" value="d">
+                d) The net force is equal to the mass of the car times its constant velocity.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q9" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q11. An electric water pump lifts 5000 litres of water from a well to an overhead tank situated at a height of 20 meters. If this is accomplished in 10 minutes, what is the minimum output power of the pump? (Assume density of water = 1000 kg/m³, g = 9.8 m/s²)</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q10" value="a">
+                a) 1633 W
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q10" value="b">
+                b) 980 W
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q10" value="c">
+                c) 98000 W
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q10" value="d">
+                d) 163.3 W
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q10" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q12. In uniform circular motion, which of the following physical quantities remains constant?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q11" value="a">
+                a) Velocity
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q11" value="b">
+                b) Speed
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q11" value="c">
+                c) Acceleration
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q11" value="d">
+                d) Linear Momentum
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q11" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q13. Two identical point charges are placed at a distance 'r' in air and exert a force F on each other. If they are now placed in a medium with a dielectric constant K=4, at what new distance r' should they be placed to experience the same force F?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q12" value="a">
+                a) r' = 2r
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q12" value="b">
+                b) r' = 4r
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q12" value="c">
+                c) r' = r/4
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q12" value="d">
+                d) r' = r/2
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q12" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q14. A wire of resistance 4 Ω is stretched to twice its original length. Assuming the volume and resistivity of the material remain constant, what will be its new resistance?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q13" value="a">
+                a) 4 Ω
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q13" value="b">
+                b) 8 Ω
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q13" value="c">
+                c) 16 Ω
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q13" value="d">
+                d) 2 Ω
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q13" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q15. Three capacitors of capacitances 2 μF, 3 μF, and 6 μF are connected in series to a 12 V source. What is the potential difference across the 3 μF capacitor?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q14" value="a">
+                a) 6 V
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q14" value="b">
+                b) 4 V
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q14" value="c">
+                c) 3 V
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q14" value="d">
+                d) 2 V
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q14" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q16. The V-I graph for a conductor makes an angle θ with the V-axis. Here V denotes voltage and I denotes current. The resistance of the conductor is given by:</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q15" value="a">
+                a) sin(θ)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q15" value="b">
+                b) cos(θ)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q15" value="c">
+                c) tan(θ)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q15" value="d">
+                d) cot(θ)
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q15" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q17. The work done in moving a charge of 5 Coulombs from a point at a potential of -10 Volts to another point at a potential of +10 Volts is:</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q16" value="a">
+                a) 100 J
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q16" value="b">
+                b) 50 J
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q16" value="c">
+                c) -50 J
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q16" value="d">
+                d) 0 J
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q16" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q18. A parallel plate capacitor is charged by a battery. After charging, the battery is disconnected, and a dielectric slab is inserted between the plates. Which of the following quantities remains constant?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q17" value="a">
+                a) Capacitance
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q17" value="b">
+                b) Charge on the plates
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q17" value="c">
+                c) Potential difference between the plates
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q17" value="d">
+                d) Energy stored in the capacitor
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q17" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q19. A 5 kg block of aluminum has a specific heat capacity of 900 J/kg°C. What is its total heat capacity (also known as thermal capacity)?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q18" value="a">
+                a) 4500 J/°C
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q18" value="b">
+                b) 180 J/°C
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q18" value="c">
+                c) 900 J/kg°C
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q18" value="d">
+                d) 4500 J
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q18" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q20. A person sitting near a campfire feels warm. What is the primary mode of heat transfer that allows the person to feel the heat from the fire, especially if they are sitting to the side and not directly above it?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q19" value="a">
+                a) Conduction through the air
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q19" value="b">
+                b) Convection of hot air currents
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q19" value="c">
+                c) Radiation in the form of electromagnetic waves
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q19" value="d">
+                d) Both conduction and convection equally
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q19" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q21. An iron rod is 10 meters long at a temperature of 20°C. If the temperature is raised to 70°C, what will be the increase in its length? (The coefficient of linear expansion for iron, α, is 12 x 10⁻⁶ /°C).</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q20" value="a">
+                a) 6.0 mm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q20" value="b">
+                b) 0.6 mm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q20" value="c">
+                c) 12.0 mm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q20" value="d">
+                d) 0.006 mm
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q20" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q22. Water has a high specific heat capacity (approx. 4200 J/kg°C) compared to sand (approx. 830 J/kg°C). On a sunny day at the beach, if equal masses of sand and water absorb the same amount of solar energy, what is the expected outcome?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q21" value="a">
+                a) The sand will become significantly hotter than the water.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q21" value="b">
+                b) The water will become significantly hotter than the sand.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q21" value="c">
+                c) Both will have the same final temperature.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q21" value="d">
+                d) The temperature change depends on their volume, not mass.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q21" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q23. The coefficient of thermal conductivity (K) for a material is best defined as the rate of heat flow...</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q22" value="a">
+                a) per unit area for a given temperature difference across the material.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q22" value="b">
+                b) per unit thickness for a given temperature difference across the material.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q22" value="c">
+                c) per unit area per unit temperature gradient.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q22" value="d">
+                d) required to raise the temperature of a unit volume by one degree.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q22" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q24. A thermometer is calibrated incorrectly. It reads the freezing point of water as -5°C and the boiling point as 105°C. What is the correct temperature in Celsius if this faulty thermometer reads 25°C?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q23" value="a">
+                a) 27.27°C
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q23" value="b">
+                b) 30.00°C
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q23" value="c">
+                c) 25.00°C
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q23" value="d">
+                d) 22.73°C
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q23" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q25. A progressive sound wave with a frequency of 440 Hz travels from air (speed ≈ 343 m/s) into water (speed ≈ 1482 m/s). Which of the following correctly describes the properties of the wave after it enters the water?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q24" value="a">
+                a) The frequency remains 440 Hz and its wavelength decreases.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q24" value="b">
+                b) The frequency remains 440 Hz and its wavelength increases.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q24" value="c">
+                c) The frequency increases and its wavelength remains the same.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q24" value="d">
+                d) The frequency decreases and its wavelength increases.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q24" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q26. In the context of stationary waves formed by the superposition of two identical progressive waves, which statement is true about the particles of the medium?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q25" value="a">
+                a) All particles between two consecutive nodes vibrate in the same phase with the same amplitude.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q25" value="b">
+                b) Particles at the nodes have maximum kinetic energy, while particles at the antinodes have zero kinetic energy.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q25" value="c">
+                c) The phase of particles in one segment between two nodes is opposite to the phase of particles in the adjacent segment.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q25" value="d">
+                d) Energy is continuously transferred from one node to the next.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q25" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q27. A ray of light is incident at an angle of 45° on the surface of a glass slab from air. It gets refracted into the glass at an angle of 30°. What is the critical angle for this glass-air interface? (Given: sin 45° ≈ 0.707, sin 30° = 0.5)</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q26" value="a">
+                a) 30°
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q26" value="b">
+                b) 60°
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q26" value="c">
+                c) 45°
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q26" value="d">
+                d) 42°
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q26" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q28. A major advantage of using LASER over an ordinary light source in communication systems like optical fibers is its high degree of coherence. What does 'coherence' primarily imply?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q27" value="a">
+                a) The light consists of a single wavelength, making it purely monochromatic.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q27" value="b">
+                b) The light waves have a definite and constant phase relationship with each other over time and space.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q27" value="c">
+                c) The light beam is highly directional and does not spread out significantly.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q27" value="d">
+                d) The intensity of the light beam is extremely high per unit area.
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q27" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q29. An empty auditorium has a volume of 5000 m³ and a reverberation time of 4 seconds. According to Sabine's formula, what is the total absorption (A) of the empty auditorium?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q28" value="a">
+                a) 201.25 Sabine
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q28" value="b">
+                b) 310.55 Sabine
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q28" value="c">
+                c) 12500 Sabine
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q28" value="d">
+                d) 805 Sabine
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q28" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+    <div class="q">
+        <p><b>Q30. An optical fiber is constructed with a core and a cladding. For its principle of total internal reflection to work effectively, which condition regarding their absolute refractive indices (n_core, n_cladding) and the angle of incidence (i) at the core-cladding interface is essential?</b></p>
+    
+        <div class="option">
+            <label>
+                <input type="radio" name="q29" value="a">
+                a) n_core < n_cladding and i > critical angle
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q29" value="b">
+                b) n_core > n_cladding and i > critical angle
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q29" value="c">
+                c) n_core = n_cladding to minimize reflection loss
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q29" value="d">
+                d) n_core > n_cladding and i < critical angle
+            </label>
+        </div>
+        
+        <div class="option">
+            <label>
+                <input type="radio" name="q29" value="none" checked>
+                Skip Question
+            </label>
+        </div>
+    </div>
+    
+</div>
+
+<button class="submit" onclick="calculateScore()">Submit Test</button>
+
+<h3 id="result"></h3>
+
+<script>
+
+const correctAnswers = {};
+correctAnswers["q0"] = "a";
+correctAnswers["q1"] = "b";
+correctAnswers["q2"] = "c";
+correctAnswers["q3"] = "b";
+correctAnswers["q4"] = "c";
+correctAnswers["q5"] = "c";
+correctAnswers["q6"] = "c";
+correctAnswers["q7"] = "c";
+correctAnswers["q8"] = "b";
+correctAnswers["q9"] = "c";
+correctAnswers["q10"] = "a";
+correctAnswers["q11"] = "b";
+correctAnswers["q12"] = "d";
+correctAnswers["q13"] = "c";
+correctAnswers["q14"] = "b";
+correctAnswers["q15"] = "c";
+correctAnswers["q16"] = "a";
+correctAnswers["q17"] = "b";
+correctAnswers["q18"] = "a";
+correctAnswers["q19"] = "c";
+correctAnswers["q20"] = "a";
+correctAnswers["q21"] = "a";
+correctAnswers["q22"] = "c";
+correctAnswers["q23"] = "a";
+correctAnswers["q24"] = "b";
+correctAnswers["q25"] = "c";
+correctAnswers["q26"] = "d";
+correctAnswers["q27"] = "b";
+correctAnswers["q28"] = "a";
+correctAnswers["q29"] = "b";
+
+
+const POS = 2;
+const NEG = 0.5;
+const QUESTIONS_COUNT = 30;
+
+let submitted = false;
+
+function calculateScore() {
+
+    if (submitted) return;
+    submitted = true;
+
+    let score = 0;
+
+    for (let i = 0; i < QUESTIONS_COUNT; i++) {
+
+        let selected = document.querySelector('input[name="q'+i+'"]:checked');
+        let correct = correctAnswers["q"+i];
+
+        let questionDiv = document.getElementsByClassName("q")[i];
+
+        let userAns = selected ? selected.value : "none";
+
+        let resultLine = document.createElement("p");
+
+        // -----------------------------
+        // HIGHLIGHT LOGIC
+        // -----------------------------
+        let options = questionDiv.querySelectorAll("input");
+
+        options.forEach(opt => {
+            let label = opt.parentElement;
+
+            // correct answer highlight (green)
+            if (opt.value === correct) {
+                label.style.background = "#d4f7d4";
+            }
+
+            // wrong selected highlight (red)
+            if (opt.checked && opt.value !== correct && opt.value !== "none") {
+                label.style.background = "#ffd6d6";
+            }
+
+            // disable after submit
+            opt.disabled = true;
+        });
+
+        // -----------------------------
+        // SCORING LOGIC
+        // -----------------------------
+        if (userAns === correct) {
+            score += POS;
+            resultLine.innerHTML = "✅ Correct";
+            resultLine.style.color = "green";
+        } 
+        else if (userAns === "none") {
+            resultLine.innerHTML = "⚪ Skipped | Correct: " + correct;
+            resultLine.style.color = "#666";
+        } 
+        else {
+            score -= NEG;
+            resultLine.innerHTML = "❌ Wrong | Your: " + userAns + " | Correct: " + correct;
+            resultLine.style.color = "red";
+        }
+
+        questionDiv.appendChild(resultLine);
+    }
+
+    document.getElementById("result").innerHTML =
+        "<b>Final Score: " + score + " / " + QUESTIONS_COUNT + "</b>";
+}
+
+</script>
+
+</body>
+</html>
